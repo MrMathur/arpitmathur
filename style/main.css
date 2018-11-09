@@ -1,0 +1,309 @@
+/*          UNIVERSAL           */
+
+.container {
+    position: relative;    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    background: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 378px;
+    width: 100%;
+    min-height: 1375px;
+}
+
+/*          NAVBAR           */
+
+.logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 38px;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    color: #C90708;
+    margin-top: 20px;
+}
+
+.logo-div a:hover {
+    text-decoration: none;
+}
+
+.logo-div {
+    text-align: center;
+}
+
+.nav-item {
+    margin-top: 42px;
+    text-align: center;
+}
+
+.nav-item a {    
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;    
+    transition: all 0.2s ease-in;
+}
+
+.nav-item a:hover {
+    opacity: 1.0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.nav-item-active {
+    margin-top: 42px;
+    text-align: center;
+}
+
+.nav-item-active a {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.nav-item-active a:hover {
+    text-decoration: none;
+}
+
+.mathur {
+    color: #454545;
+}
+
+/*          HEADER           */
+
+.anim-text {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #C90708;
+    margin: auto;
+}
+
+blink {
+    margin-right: -15px;
+}
+
+.anim-text-row {
+    margin-top: 102px;
+}
+
+.desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 61px;
+    font-size: 47px;
+    text-align: center;
+    color: #454545;
+    margin: auto;
+}
+
+.desc-row {
+    margin-top: 80px;
+}
+
+/*          FILTER           */
+
+.filter-row {
+    margin-top: 100px;
+}
+
+.filter-item-div {
+    text-align: center;
+}
+
+.filter-row a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 1;
+    color: #000000;
+    transition: 0.2s ease;
+}
+
+.filter-item {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.filter-item-active {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*          PROJECTS           */
+
+.projects {
+    margin-top: 74px;
+    padding-bottom: 100px;
+}
+
+.project-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    transition: ease all 0.2s;
+}
+
+.projects .ng-hide {
+    height: 0px;
+    transition: ease all 0.2s;
+}
+
+.project-item:hover {
+    background-size: 120%;
+}
+
+.overlay {
+    padding: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #C90708;
+    transition: all ease 0.3s;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 29px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.overlay:hover {
+    opacity: 1;
+    background-color: rgb(201,7,8,0.75);
+    cursor: pointer;
+}
+
+/*          FOOTER           */
+
+.footer {
+    background-color: #C90708;
+    margin-top: 100px;
+    height: 378px;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    width: 100%;
+}
+
+.reach-out {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 61px;
+    font-size: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    background-attachment: fixed;    
+}
+
+.footer-child {
+    padding: 40px;
+    background-attachment: fixed;
+}
+
+.contact {
+    margin-top: 25px;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contact-details {
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.contact-details:hover {
+    color: #FFFFFF;
+    opacity: 1;
+    transition: ease 0.2s;
+}
+
+.icons {
+    margin-top: 80px;
+}
+
+.icons img {
+    opacity: 0.5;
+}
+
+.icons img:hover{
+    opacity: 1;
+    transition: 0.2s ease;
+}
+
+/*          RESPONSIVE          */
+
+@media only screen and (max-width: 991px) {
+    .desc {
+        text-align: left;
+        font-size: 36px;
+    }
+    .filter-row {
+        display: none;
+    }
+    .project-item {
+        margin: auto;
+        width: 100%;
+    }
+    .contact-details {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,126 @@
+<div class="main-content">
+    <div class="container">    
+
+        <!-- NAVBAR -->
+        <div class="row">
+            <div class="col-lg-3 logo-div">
+                <a href="#/!"><h1 class="logo">ARPIT<span class="mathur">MATHUR</span></h1></a>
+            </div>
+            <div class="col-lg-6"></div>
+            <div class="col-lg-1 col-4 nav-item-active"><a href="#/!">_work</a></div>
+            <div class="col-lg-1 col-4 nav-item"><a href="./about.html">about</a></div>
+            <div class="col-lg-1 col-4 nav-item"><a href="./Resume.pdf" target="_blank">resume</a></div>
+        </div>
+
+        <!-- Animated Text -->
+        <div class="row anim-text-row">
+            <div class="anim-text col-lg-4">
+                <blink>_</blink>
+                <span id="demo"></span>
+            </div>
+        </div>
+
+
+        <!-- Description -->
+        <div class="row desc-row">
+            <h1 class="desc col-lg-12">A Final Year Design Undergrad at IIT Guwahati, 
+            in search of the next step in his career.</h1>
+        </div>
+            
+
+        <!-- Filter -->
+        <div class="row filter-row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2 filter-item-div">
+                <a class={{allStyle}} ng-click="showAll()">{{allContent}}</a>
+            </div>
+            <div class="col-lg-2 filter-item-div">
+                <a class={{acadStyle}} ng-click="showAcad()">{{acadContent}}</a>
+            </div>
+            <div class="col-lg-2 filter-item-div">
+                <a class={{internStyle}} ng-click="showIntern()">{{internContent}}</a>
+            </div>
+            <div class="col-lg-2 filter-item-div">
+                <a class={{sideStyle}} ng-click="showSide()">{{sideContent}}</a>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    
+    
+        <!-- Projects -->
+        <div class="projects"> 
+            <div class="row project-row">
+                <div class="col-lg-4 project-item" ng-repeat="project in projects" ng-hide="!(num === 1)"
+                style="background-image: url('{{project.image}}')">
+                    <a href="{{project.link}}">
+                        <div class="overlay">
+                            <br />
+                            <div class="project-title">{{project.title}} </div><br/>
+                            <div ng-repeat="desc in project.desc">{{desc}} </div><br/>
+                            <img src={{project.icon}}/>
+                        </div>
+                    </a>
+                </div>                    
+            </div>
+            <div class="row project-row">
+                <div class="col-lg-4 project-item" ng-repeat="project in academic" ng-hide="!(num === 2)"
+                style="background-image: url('{{project.image}}')">
+                    <a href="{{project.link}}">
+                        <div class="overlay">
+                            <br />
+                            <div class="project-title">{{project.title}} </div><br/>
+                            <div ng-repeat="desc in project.desc">{{desc}} </div><br/>
+                            <img src={{project.icon}}/>
+                        </div>
+                    </a>
+                </div>                    
+            </div>
+            <div class="row project-row">
+                <div class="col-lg-4 project-item" ng-repeat="project in intern" ng-hide="!(num === 4)"
+                style="background-image: url('{{project.image}}')">
+                    <a href="{{project.link}}">
+                        <div class="overlay">
+                            <br />
+                            <div class="project-title">{{project.title}} </div><br/>
+                            <div ng-repeat="desc in project.desc">{{desc}} </div><br/>
+                            <img src={{project.icon}}/>
+                        </div>
+                    </a>
+                </div>                    
+            </div>
+            <div class="row project-row">
+                <div class="col-lg-4 project-item" ng-repeat="project in side" ng-hide="!(num === 3)"
+                style="background-image: url('{{project.image}}')">
+                    <a href="{{project.link}}">
+                        <div class="overlay">
+                            <br />
+                            <div class="project-title">{{project.title}} </div><br/>
+                            <div ng-repeat="desc in project.desc">{{desc}} </div><br/>
+                            <img src={{project.icon}}/>
+                        </div>
+                    </a>
+                </div>                    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container footer-child">
+        <h1 class="col-lg-12 reach-out">Reach out!</h1>
+        <div class="row contact">
+            <a href="mailto:arpit.mathur@iitg.ac.in" class="contact-details col-lg-12">arpit.mathur@iitg.ac.in</a>
+            <a href="tel:+918473934459" class="contact-details col-lg-12">+91 8473934459</a>
+        </div>
+        <div class="row icons">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1 col-3"><a target="_blank" href="https://www.linkedin.com/in/arpit-mathur-216519139/"><img src="./images/svg/linkedin.svg" /></a></div>
+            <div class="col-lg-1 col-3"><a target="_blank" href="https://medium.com/@arpitmathur19"><img src="./images/svg/medium.svg" /></a></div>
+            <div class="col-lg-1 col-3"><a target="_blank" href="https://www.behance.net/arpitmathu6284"><img src="./images/svg/behance.svg" /></a></div>
+            <div class="col-lg-1 col-3"><a target="_blank" href="https://twitter.com/_MrMathur_"><img src="./images/svg/twitter.svg" /></a></div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+</div>

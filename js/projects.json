@@ -1,0 +1,78 @@
+{
+    "projects": [
+        {
+            "title": "Swasthyaa",
+            "image": "./images/Project-Thumbnails/1.png",
+            "link": "#swasthyaa",
+            "desc": ["User Research", "System Design", "User Testing"],
+            "tag": "academic",
+            "icon": "./images/svg/plus.svg"
+        },
+        {
+            "title": "WordTutor",
+            "image": "./images/Project-Thumbnails/4.png",
+            "link": "#wordtutor",
+            "desc": ["Voice User Interfaces", "Interaction Design", "User Testing"],
+            "tag": "academic",
+            "icon": "./images/svg/book.svg"
+        },
+        {
+            "title": "Vatsalya",
+            "image": "./images/Project-Thumbnails/5.png",
+            "link": "#vatsalya",
+            "desc": ["Visual Communication", "Brand Identity", "Graphic Design"],
+            "tag": "side project",
+            "icon": "./images/svg/plus.svg"
+        },
+        {
+            "title": "Ahaar",
+            "image": "./images/Project-Thumbnails/2.png",
+            "link": "#ahaar",
+            "desc": ["User Research","Human Centered Design", "System Design"],
+            "tag": "side project",
+            "icon": "./images/svg/heart.svg"
+        },
+        {
+            "title": "SAS RnD",
+            "image": "./images/Project-Thumbnails/6.png",
+            "link": "#sas",
+            "desc": ["Brainstorming", "Interaction Design", "Visual Design"],
+            "tag": "internship",
+            "icon": "./images/svg/credit.svg"
+        },
+        {
+            "title": "FITBrain",
+            "image": "./images/Project-Thumbnails/3.png",
+            "link": "#fitbrain",
+            "desc": ["Instructional Design", "Interaction Design", "Visual Design"],
+            "tag": "academic",
+            "icon": "./images/svg/book.svg"
+        }
+    ],
+    "subs": [
+        {
+            "title": "ProximiTREE",
+            "image": "./images/Project-Thumbnails/1.png",
+            "link": "#sup",
+            "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
+            "tag": "academic",
+            "icon": "./images/svg/heart.svg"
+        },
+        {
+            "title": "ChargeIt",
+            "image": "./images/Project-Thumbnails/4.png",
+            "link": "#sup",
+            "desc": ["Brainstorming", "Interaction Design", "Visual Design"],
+            "tag": "internship",
+            "icon": "./images/svg/battery.svg"
+        },
+        {
+            "title": "Quizential",
+            "image": "./images/Project-Thumbnails/2.png",
+            "link": "#sup",
+            "desc": ["Usability Testing", "Interaction Design", "Visual Design"],
+            "tag": "internship",
+            "icon": "./images/svg/book.svg"
+        }
+    ]
+}

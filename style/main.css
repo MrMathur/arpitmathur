@@ -2,6 +2,7 @@
 
 .container {
     position: relative;    
+    padding: none;
 }
 
 img {
@@ -114,7 +115,7 @@ blink {
     font-style: normal;
     font-weight: 600;
     line-height: 61px;
-    font-size: 47px;
+    font-size: 46px;
     text-align: center;
     color: #454545;
     margin: auto;
@@ -177,20 +178,22 @@ blink {
 .project-item {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    background-size: 90%;
     height: 360px;
     text-align: center;
     transition: ease all 0.2s;
+    margin-bottom: 2%;
 }
 
 .projects .ng-hide {
     height: 0px;
     transition: ease all 0.2s;
+    margin-bottom: 0px;
 }
 
 .project-item:hover {
-    background-size: 120%;
+    background-size: 380px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15), 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .overlay {
@@ -228,7 +231,7 @@ blink {
 .footer {
     background-color: #C90708;
     margin-top: 100px;
-    height: 378px;
+    height: 340px;
     position: fixed;
     z-index: -1;
     bottom: 0;
@@ -287,13 +290,17 @@ blink {
     opacity: 1;
     transition: 0.2s ease;
 }
+/*          FOOTER           */
 
 /*          RESPONSIVE          */
-
 @media only screen and (max-width: 991px) {
+    .nav-item, .nav-item-active {
+        margin-top: 10px;
+    }
     .desc {
         text-align: left;
-        font-size: 36px;
+        font-size: 30px;
+        line-height: 45px;
     }
     .filter-row {
         display: none;
@@ -301,9 +308,25 @@ blink {
     .project-item {
         margin: auto;
         width: 100%;
+        background-size: 100%;
+        margin-bottom: 10px;
     }
     .contact-details {
         font-size: 24px;
-        margin-top: 25px;
+        margin-top: 15px;
+    }
+    .footer {
+        height: 300px;
+        padding: 0px;
+    }
+    .footer-child {
+        padding: 0px;
+    }
+    .reach-out {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .icons {
+        margin-top: 50px;
     }
 }

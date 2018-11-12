@@ -36,7 +36,7 @@ app.controller("IndividualController",function($scope,$location,$anchorScroll) {
 //          Project Controller
 app.controller("ProjectController", function($scope,$http,$timeout) {
 
-    $http.get("./js/projects.json").then(function (response) {
+    window.onload = $http.get("./js/projects.json").then(function (response) {
         dealWithResponse(response, $scope, $timeout);
     });
 

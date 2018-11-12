@@ -6,7 +6,7 @@
             "link": "#swasthyaa",
             "desc": ["User Research", "System Design", "User Testing"],
             "tag": "academic",
-            "icon": "./images/svg/plus.svg"
+            "icon": "/images/svg/plus.svg"
         },
         {
             "title": "WordTutor",
@@ -14,7 +14,7 @@
             "link": "#wordtutor",
             "desc": ["Voice User Interfaces", "Interaction Design", "User Testing"],
             "tag": "academic",
-            "icon": "./images/svg/book.svg"
+            "icon": "/images/svg/book.svg"
         },
         {
             "title": "Vatsalya",
@@ -22,7 +22,7 @@
             "link": "#vatsalya",
             "desc": ["Visual Communication", "Brand Identity", "Graphic Design"],
             "tag": "side project",
-            "icon": "./images/svg/plus.svg"
+            "icon": "/images/svg/plus.svg"
         },
         {
             "title": "Ahaar",
@@ -30,7 +30,7 @@
             "link": "#ahaar",
             "desc": ["User Research","Human Centered Design", "System Design"],
             "tag": "side project",
-            "icon": "./images/svg/heart.svg"
+            "icon": "/images/svg/heart.svg"
         },
         {
             "title": "SAS RnD",
@@ -38,7 +38,7 @@
             "link": "#sas",
             "desc": ["Brainstorming", "Interaction Design", "Visual Design"],
             "tag": "internship",
-            "icon": "./images/svg/credit.svg"
+            "icon": "/images/svg/credit.svg"
         },
         {
             "title": "FITBrain",
@@ -46,7 +46,7 @@
             "link": "#fitbrain",
             "desc": ["Instructional Design", "Interaction Design", "Visual Design"],
             "tag": "academic",
-            "icon": "./images/svg/book.svg"
+            "icon": "/images/svg/book.svg"
         }
     ],
     "subs": [
@@ -56,7 +56,7 @@
             "link": "#sup",
             "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
             "tag": "academic",
-            "icon": "./images/svg/heart.svg"
+            "icon": "/images/svg/heart.svg"
         },
         {
             "title": "ChargeIt",
@@ -64,7 +64,7 @@
             "link": "#sup",
             "desc": ["Brainstorming", "Interaction Design", "Visual Design"],
             "tag": "internship",
-            "icon": "./images/svg/battery.svg"
+            "icon": "/images/svg/battery.svg"
         },
         {
             "title": "Quizential",
@@ -72,7 +72,7 @@
             "link": "#sup",
             "desc": ["Usability Testing", "Interaction Design", "Visual Design"],
             "tag": "internship",
-            "icon": "./images/svg/book.svg"
+            "icon": "/images/svg/book.svg"
         }
     ]
 }

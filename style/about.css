@@ -78,3 +78,16 @@
     width: 100%;
     padding-bottom: 100px;
 }
+
+
+@media only screen and (max-width: 991px) {
+    .main-content-about {
+        height: 2500px;
+    }
+    .about p {
+        margin-top: 30px;
+    }
+    .desc {
+        text-align: center;
+    }
+}

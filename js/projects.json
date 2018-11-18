@@ -47,9 +47,7 @@
             "desc": ["Instructional Design", "Interaction Design", "Visual Design"],
             "tag": "academic",
             "icon": "./images/svg/book.svg"
-        }
-    ],
-    "subs": [
+        },
         {
             "title": "ProximiTREE",
             "image": "./images/Project-Thumbnails/1.png",

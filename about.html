@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="./style/main.css" />
         <link rel="stylesheet" href="./style/project.css" />
         <link rel="stylesheet" href="./style/animations.css" />
+        <link rel="stylesheet" href="./style/about.css" />
     
         <!-- Angular JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -32,23 +33,82 @@
         <title>Arpit Mathur - Design Portfolio</title>
       </head>
   <body ng-app="app">
-        <div class="main-content">
-                <div class="container">    
-            
-                    <!-- NAVBAR -->
-                    <div class="row">
-                        <div class="col-lg-3 logo-div">
-                            <a href="./index.html"><h1 class="logo">ARPIT<span class="mathur">MATHUR</span></h1></a>
-                        </div>
-                        <div class="col-lg-6"></div>
-                        <div class="col-lg-1 col-4 nav-item"><a href="./index.html">work</a></div>
-                        <div class="col-lg-1 col-4 nav-item-active"><a href="./about.html">_about</a></div>
-                        <div class="col-lg-1 col-4 nav-item"><a href="./Resume.pdf" target="_blank">resume</a></div>
+        <div class="main-content-about" ng-controller="AboutController">
+            <div class="container">    
+        
+                <!-- NAVBAR -->
+                <div class="row">
+                    <div class="col-lg-3 logo-div">
+                        <a href="./index.html"><h1 class="logo">ARPIT<span class="mathur">MATHUR</span></h1></a>
+                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-1 col-4 nav-item"><a href="./index.html">work</a></div>
+                    <div class="col-lg-1 col-4 nav-item-active"><a href="./about.html">_about</a></div>
+                    <div class="col-lg-1 col-4 nav-item"><a href="./Resume.pdf" target="_blank">resume</a></div>
+                </div>
+
+                <!-- Animated Text -->
+                <div class="row anim-text-row">
+                    <div class="anim-text col-lg-4">
+                        <blink>_</blink>
+                        <span id="demo"></span>
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="row about">
+                    <div class="col-lg-4">
+                        <img class="my-photo" src="./images/0.jpeg" />
+                    </div>
+                    <div class="col-lg-8 ">
+                        <p>
+                            I am currently a Human-Centered Engineer at the MITRE Corporation in the Collaboration and Social Computing Group. I completed my Master's degree in Human-Computer Interaction at Carnegie Mellon in 2014. 
+                        </p>
+                        <p>
+                            I am interested in the intersection of technology and people, looking to make seamless, frictionless interactions. My passion is researching and designing interactions for Human - Robot Interactions. I work towards creating human-robot interactions even better than human-human interactions. 
+                        </p>
+                        <p>
+                            Due to confidentiality I am unable to show my current work in my portfolio.       
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="desc">Skills</h1>
+                        </div>
+                    </div>
+
+                    <div class="row skill-icons">
+                        <img src="./images/svg/loupe.svg" class="col-lg-4" />
+                        <img src="./images/svg/paint-brushes.svg" class="col-lg-4" />
+                        <img src="./images/svg/css.svg" class="col-lg-4" />
+                    </div>
+
+                    <div class="row skill-text">
+                        <div class="col-lg-4">
+                            <h1>RESEARCH</h1>
+                            <p>3 years of experience with User Research, Contextual Inquiry, Game Research, Usability Evaluation, and Data Analysis. Published author in India HCI, UX India, Meaningful Play, and DiGRA.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h1>DESIGN</h1>
+                            <p>4 years of experience in Visual Design, primarily focusing on User Interface Design. Designed and shipped 15+ products. Skilled at design and prototyping tools.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h1>DEVELOP</h1>
+                            <p>High fidelity prototyping experience with HTML, CSS, Javascript & Coffeescript. Programming experience with Python, Java and C/C++. Basic familiarity with iOS development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
         
-            
+        
             <!-- Footer -->
             <div class="footer">
                 <div class="container footer-child">

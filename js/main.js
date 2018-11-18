@@ -57,6 +57,25 @@ app.controller("ProjectController", function($scope,$http,$timeout) {
     
 });
 
+//          About Controller
+app.controller("AboutController",function($scope,$http,$timeout) {
+    
+    // TypeWriter Effect
+    var txt = "A little about me...";
+    var i = txt.length;
+    var speed = 50;
+    var temp = "";
+    function typeWriter() {
+        temp += txt.charAt(i);
+        if (i >= 0) {
+            document.getElementById("demo").innerHTML = temp.split("").reverse().join("");
+            i--;
+            $timeout(typeWriter, speed);
+        }
+    }    
+    window.onload = $timeout(typeWriter, 1000);
+});
+
 //          LOADING PROJECTS
 var dealWithResponse = function(response, $scope, $timeout) {
     var all_projects = response.data.projects;   

@@ -26,6 +26,9 @@ app.config(function($routeProvider) {
     }).when("/chargeit", {
         templateUrl: "./projects/chargeit.htm",
         controller: "IndividualController"
+    }).when("/quizential", {
+        templateUrl: "./projects/quizential.htm",
+        controller: "IndividualController"
     }).otherwise({
         redirectTo: "/"
     });

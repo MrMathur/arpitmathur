@@ -3,18 +3,10 @@
         {
             "title": "Swasthyaa",
             "image": "./images/Project-Thumbnails/1.png",
-            "link": "#swasthyaa",
+            "link": "http://www.swasthyaa.com   ",
             "desc": ["User Research", "System Design", "User Testing"],
             "tag": "academic",
             "icon": "./images/svg/plus.svg"
-        },
-        {
-            "title": "WordTutor",
-            "image": "./images/Project-Thumbnails/4.png",
-            "link": "#wordtutor",
-            "desc": ["Voice User Interfaces", "Interaction Design", "User Testing"],
-            "tag": "academic",
-            "icon": "./images/svg/book.svg"
         },
         {
             "title": "FITBrain",
@@ -23,14 +15,6 @@
             "desc": ["Instructional Design", "Interaction Design", "Visual Design"],
             "tag": "academic",
             "icon": "./images/svg/book.svg"
-        },
-        {
-            "title": "ProximiTREE",
-            "image": "./images/Project-Thumbnails/1.png",
-            "link": "#sup",
-            "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
-            "tag": "academic",
-            "icon": "./images/svg/heart.svg"
         },
         {
             "title": "ChargeIt",
@@ -42,8 +26,8 @@
         },
         {
             "title": "Quizential",
-            "image": "./images/Project-Thumbnails/2.png",
-            "link": "#sup",
+            "image": "./images/Project-Thumbnails/9.png",
+            "link": "#quizential",
             "desc": ["Usability Testing", "Interaction Design", "Visual Design"],
             "tag": "internship",
             "icon": "./images/svg/book.svg"
@@ -73,6 +57,22 @@
             "desc": ["User Research","Human Centered Design", "System Design"],
             "tag": "side project",
             "icon": "./images/svg/heart.svg"
+        },
+        {
+            "title": "ProximiTREE",
+            "image": "./images/Project-Thumbnails/1.png",
+            "link": "#sup",
+            "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
+            "tag": "academic",
+            "icon": "./images/svg/heart.svg"
+        },
+        {
+            "title": "WordTutor",
+            "image": "./images/Project-Thumbnails/4.png",
+            "link": "#wordtutor",
+            "desc": ["Voice User Interfaces", "Interaction Design", "User Testing"],
+            "tag": "academic",
+            "icon": "./images/svg/book.svg"
         }
     ]
 }

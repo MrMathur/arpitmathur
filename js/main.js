@@ -23,6 +23,9 @@ app.config(function($routeProvider) {
     }).when("/sas", {
         templateUrl: "./projects/sas.htm",
         controller: "IndividualController"
+    }).when("/chargeit", {
+        templateUrl: "./projects/chargeit.htm",
+        controller: "IndividualController"
     }).otherwise({
         redirectTo: "/"
     });

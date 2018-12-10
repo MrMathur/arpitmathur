@@ -37,6 +37,10 @@
     margin-top: 50px;
 }
 
+.row {
+    margin-bottom: 50px; 
+}
+
 .project-content h1 {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
@@ -60,10 +64,10 @@
     font-size: 16px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #454545;
-    opacity: 0.8;
+    color: #A71112;
     overflow: hidden;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 .project-content h3 {
@@ -73,7 +77,7 @@
     line-height: 37px;
     font-size: 25px;
     color: #454545;
-    margin-top: 22px;
+    margin-top: 40px;
 }
 
 .project-content p {

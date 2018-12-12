@@ -126,6 +126,12 @@
 
 @media only screen and (max-width: 991px) {
 
+    .project-title-indi {
+        text-align: left;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
     .about-the-project h2 {
         margin-top: 60px;
     }

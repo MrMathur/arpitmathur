@@ -1,7 +1,7 @@
 var app = angular.module("app", ['ngAnimate', 'ngRoute']);
 
 //          ROUTING
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider.when("/", {
         templateUrl: "./work.htm",
         controller: "ProjectController"
@@ -29,18 +29,21 @@ app.config(function($routeProvider) {
     }).when("/quizential", {
         templateUrl: "./projects/quizential.htm",
         controller: "IndividualController"
+    }).when("/tui", {
+        templateUrl: "./projects/tui.htm",
+        controller: "IndividualController"
     }).otherwise({
         redirectTo: "/"
     });
 });
 
 //          Individual Controller
-app.controller("IndividualController",function($scope,$location,$anchorScroll) {
+app.controller("IndividualController", function ($scope, $location, $anchorScroll) {
     $anchorScroll($location.hash());
 });
 
 //          Project Controller
-app.controller("ProjectController", function($scope,$http,$timeout) {
+app.controller("ProjectController", function ($scope, $http, $timeout) {
 
     window.onload = $http.get("./js/projects.json").then(function (response) {
         dealWithResponse(response, $scope, $timeout);
@@ -51,6 +54,7 @@ app.controller("ProjectController", function($scope,$http,$timeout) {
     var i = txt.length;
     var speed = 50;
     var temp = "";
+
     function typeWriter() {
         temp += txt.charAt(i);
         if (i >= 0) {
@@ -58,19 +62,20 @@ app.controller("ProjectController", function($scope,$http,$timeout) {
             i--;
             $timeout(typeWriter, speed);
         }
-    }    
+    }
     window.onload = $timeout(typeWriter, 1000);
-    
+
 });
 
 //          About Controller
-app.controller("AboutController",function($scope,$http,$timeout) {
-    
+app.controller("AboutController", function ($scope, $http, $timeout) {
+
     // TypeWriter Effect
     var txt = "A little about me...";
     var i = txt.length;
     var speed = 50;
     var temp = "";
+
     function typeWriter() {
         temp += txt.charAt(i);
         if (i >= 0) {
@@ -78,17 +83,17 @@ app.controller("AboutController",function($scope,$http,$timeout) {
             i--;
             $timeout(typeWriter, speed);
         }
-    }    
+    }
     window.onload = $timeout(typeWriter, 1000);
 });
 
 //          LOADING PROJECTS
-var dealWithResponse = function(response, $scope, $timeout) {
-    var all_projects = response.data.projects;   
+var dealWithResponse = function (response, $scope, $timeout) {
+    var all_projects = response.data.projects;
     var academic = [];
     var side = [];
     var intern = [];
-    $scope.hide = function(num1,num2) {
+    $scope.hide = function (num1, num2) {
         if (num1 === num2) {
             return false;
         } else {
@@ -97,7 +102,7 @@ var dealWithResponse = function(response, $scope, $timeout) {
     }
     $scope.num = 1;
 
-    for (var i=0; i<all_projects.length; i++) {
+    for (var i = 0; i < all_projects.length; i++) {
         if (all_projects[i].tag === "academic") {
             academic.push(all_projects[i]);
         } else if (all_projects[i].tag === "internship") {
@@ -113,57 +118,57 @@ var dealWithResponse = function(response, $scope, $timeout) {
     $scope.intern = intern;
     $scope.side = side;
     $scope.academic = academic;
-    
-    $scope.allStyle = "filter-item-active"; 
+
+    $scope.allStyle = "filter-item-active";
     $scope.sideStyle = "filter-item";
     $scope.internStyle = "filter-item";
     $scope.acadStyle = "filter-item";
-    $scope.allContent = "_all projects"; 
+    $scope.allContent = "_all projects";
     $scope.sideContent = "side projects";
     $scope.internContent = "internships";
     $scope.acadContent = "academics";
 
-    $scope.showAcad = function() {
+    $scope.showAcad = function () {
         $scope.num = 2;
-        $scope.allStyle = "filter-item"; 
+        $scope.allStyle = "filter-item";
         $scope.sideStyle = "filter-item";
         $scope.internStyle = "filter-item";
         $scope.acadStyle = "filter-item-active";
-        $scope.allContent = "all projects"; 
+        $scope.allContent = "all projects";
         $scope.sideContent = "side projects";
         $scope.internContent = "internships";
         $scope.acadContent = "_academics";
     }
-    $scope.showSide = function() {
+    $scope.showSide = function () {
         $scope.num = 3;
-        $scope.allStyle = "filter-item"; 
+        $scope.allStyle = "filter-item";
         $scope.sideStyle = "filter-item-active";
         $scope.internStyle = "filter-item";
         $scope.acadStyle = "filter-item";
-        $scope.allContent = "all projects"; 
+        $scope.allContent = "all projects";
         $scope.sideContent = "_side projects";
         $scope.internContent = "internships";
         $scope.acadContent = "academics";
     }
-    $scope.showIntern = function() {
+    $scope.showIntern = function () {
         $scope.num = 4;
-        $scope.allStyle = "filter-item"; 
+        $scope.allStyle = "filter-item";
         $scope.sideStyle = "filter-item";
         $scope.internStyle = "filter-item-active";
         $scope.acadStyle = "filter-item";
-        $scope.allContent = "all projects"; 
+        $scope.allContent = "all projects";
         $scope.sideContent = "side projects";
         $scope.internContent = "_internships";
         $scope.acadContent = "academics";
     }
-    $scope.showAll = function() {
+    $scope.showAll = function () {
         $scope.num = 1;
-        $scope.hide = [false,true,true,true];
-        $scope.allStyle = "filter-item-active"; 
+        $scope.hide = [false, true, true, true];
+        $scope.allStyle = "filter-item-active";
         $scope.sideStyle = "filter-item";
         $scope.internStyle = "filter-item";
         $scope.acadStyle = "filter-item";
-        $scope.allContent = "_all projects"; 
+        $scope.allContent = "_all projects";
         $scope.sideContent = "side projects";
         $scope.internContent = "internships";
         $scope.acadContent = "academics";

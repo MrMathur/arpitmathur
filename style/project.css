@@ -4,9 +4,11 @@
     margin-left: 30px;
     opacity: 0.5;
 }
+
 .exit-cross:hover {
     opacity: 1;
 }
+
 .left-desc {
     position: fixed;
     margin-top: 50px;
@@ -25,14 +27,14 @@
 }
 
 .left-desc p {
-    max-width: 218px;    
+    max-width: 218px;
     font-family: "Inconsolata", sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: 23px;
-    font-size: 16px;    
-    color: #454545;    
-    opacity: 0.75;    
+    font-size: 16px;
+    color: #454545;
+    opacity: 0.75;
 }
 
 .project-content {
@@ -124,6 +126,113 @@
     width: 100%;
 }
 
+.project-cover-img {
+    margin-top: 50px;
+}
+
+.project-header {
+    font-family: 'Montserrat';
+    font-style: bold;
+    line-height: 35px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #A71112;
+
+    margin-top: 80px;
+}
+
+.underline {
+    width: 30px;
+    height: 3px;
+
+    background: #A71112;
+
+    margin-top: 5px;
+}
+
+.image-para {
+    margin-top: 40px;
+}
+
+.row p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+
+    color: #454545;
+}
+
+#user-research {
+    margin-top: 15px;
+}
+
+.second-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #454545;
+
+    margin-top: 50px;
+}
+
+.list-item {
+    margin-top: 20px;
+}
+
+.img-caption {
+    margin-top: 50px;
+}
+
+.img-caption h1 {
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+
+    color: #454545;
+
+    opacity: 0.75;
+}
+
+.quote-style {
+    margin-top: 40px;
+}
+
+.quote-style p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 37px;
+    font-size: 24px;
+
+    color: #454545;
+}
+
+.picture-array {
+    margin-top: 40px;
+}
+
+.project-video {
+    margin-top: 80px;
+}
+
+#end {
+    min-height: 100px;
+}
+
 @media only screen and (max-width: 991px) {
 
     .project-title-indi {
@@ -138,12 +247,14 @@
 
     .left-desc {
         position: relative;
-        margin-top: 80px;   
+        margin-top: 80px;
     }
+
     .exit-cross {
         position: relative;
         margin: auto;
     }
+
     .cross-container {
         position: fixed;
         width: 100%;
@@ -152,6 +263,7 @@
         z-index: 1;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
     }
+
     .project-content h1 {
         line-height: 45px;
     }

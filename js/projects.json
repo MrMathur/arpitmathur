@@ -1,12 +1,19 @@
 {
-    "projects": [
-        {
+    "projects": [{
             "title": "Swasthyaa",
             "image": "./images/Project-Thumbnails/1.png",
             "link": "http://www.swasthyaa.com   ",
             "desc": ["User Research", "System Design", "User Testing"],
             "tag": "academic",
             "icon": "./images/svg/plus.svg"
+        },
+        {
+            "title": "ProximiTREE",
+            "image": "./images/Project-Thumbnails/TUI.png",
+            "link": "#tui",
+            "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
+            "tag": "academic",
+            "icon": "./images/svg/heart.svg"
         },
         {
             "title": "FITBrain",
@@ -33,8 +40,7 @@
             "icon": "./images/svg/book.svg"
         }
     ],
-    "todo": [
-        {
+    "todo": [{
             "title": "Vatsalya",
             "image": "./images/Project-Thumbnails/5.png",
             "link": "#vatsalya",
@@ -49,21 +55,13 @@
             "desc": ["Brainstorming", "Interaction Design", "Visual Design"],
             "tag": "internship",
             "icon": "./images/svg/credit.svg"
-        },       
+        },
         {
             "title": "Ahaar",
             "image": "./images/Project-Thumbnails/2.png",
             "link": "#ahaar",
-            "desc": ["User Research","Human Centered Design", "System Design"],
+            "desc": ["User Research", "Human Centered Design", "System Design"],
             "tag": "side project",
-            "icon": "./images/svg/heart.svg"
-        },
-        {
-            "title": "ProximiTREE",
-            "image": "./images/Project-Thumbnails/1.png",
-            "link": "#sup",
-            "desc": ["User Research", "Tangible User Interfaces", "Prototyping"],
-            "tag": "academic",
             "icon": "./images/svg/heart.svg"
         },
         {

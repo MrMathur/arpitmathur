@@ -17,8 +17,8 @@ app.config(function ($routeProvider) {
     }).when("/vatsalya", {
         templateUrl: "./projects/vatsalya.htm",
         controller: "IndividualController"
-    }).when("/ahaar", {
-        templateUrl: "./projects/ahaar.htm",
+    }).when("/nex", {
+        templateUrl: "./projects/nex.htm",
         controller: "IndividualController"
     }).when("/sas", {
         templateUrl: "./projects/sas.htm",

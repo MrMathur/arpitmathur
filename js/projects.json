@@ -38,6 +38,14 @@
             "desc": ["Usability Testing", "Interaction Design", "Visual Design"],
             "tag": "internship",
             "icon": "./images/svg/book.svg"
+        },
+        {
+            "title": "NEX",
+            "image": "./images/Project-Thumbnails/10.png",
+            "link": "#nex",
+            "desc": ["Interface Design", "Web Design", "Visual Design"],
+            "tag": "side project",
+            "icon": "./images/svg/heart.svg"
         }
     ],
     "todo": [{

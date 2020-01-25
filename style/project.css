@@ -1,270 +1,356 @@
-.exit-cross {
-    position: fixed;
-    margin-top: 20px;
-    margin-left: 30px;
-    opacity: 0.5;
+.parallax {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  text-align: center;
 }
 
-.exit-cross:hover {
-    opacity: 1;
+#p1 {
+  background-image: url('../projects/aquarium/ga1.png');
 }
 
-.left-desc {
-    position: fixed;
-    margin-top: 50px;
+#p2 {
+  background-image: url('../projects/aquarium/ga2.png');
 }
 
-.left-desc h2 {
-    font-family: "Inconsolata", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 23px;
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    color: #A71112;
-    margin-top: 20px;
-    max-width: 218px;
+#p3 {
+  background-image: url('../projects/aquarium/ga3.png');
 }
 
-.left-desc p {
-    max-width: 218px;
-    font-family: "Inconsolata", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 23px;
-    font-size: 16px;
-    color: #454545;
-    opacity: 0.75;
+#p4 {
+  background-image: url('../projects/aquarium/ga4.png');
 }
 
-.project-content {
-    margin-top: 50px;
+#p5 {
+  background-image: url('../projects/aquarium/ga5.png');
 }
 
-.detail-item {
-    margin-top: 10px;
+.parallax h1 {
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 125%;
+  /* or 52px */
+  text-align: center;
+
+  color: #FFFFFF;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.project-title-indi {
+.snapshot {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
+.logos {
+  margin-bottom: 40px;
+}
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 53px;
-    font-size: 36px;
-    text-align: center;
-    margin-top: 60px;
+.snapshot h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
 
-    color: #454545;
+  color: #A71112;
+  margin-bottom: 5px;
+}
+
+.snapshot p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152.38%;
+  /* or 24px */
+
+  color: #454545;
+  margin-bottom: 25px;
+}
+
+.snapshot img {
+  margin-top: 15px;
+}
+
+.blue-bg {
+  background-color: #EEF3F5;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.blue-bg h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125%;
+  /* identical to box height, or 40px */
+
+  color: #454545;
+
+  opacity: 0.85;
+
+  margin-bottom: 20px;
+}
+
+.blue-bg p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em;
+  /* or 18px */
+
+  color: #454545;
+}
+
+.blue-bg h2 {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #A71112;
+
+  margin-bottom: 20px;
+}
+
+.white-bg h2 {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #A71112;
+}
+
+.blue-bg img {
+  margin-bottom: 17px;
+}
+
+.white-bg {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.white-bg h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125%;
+  /* identical to box height, or 40px */
+
+  color: #454545;
+
+  opacity: 0.85;
+
+  margin-bottom: 20px;
+
+}
+
+.white-bg p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 152.38%;
+  /* or 24px */
+
+  color: #454545;
 
 
 }
 
-.project-content img {
-    width: 100%;
-    height: 100%;
-    margin-top: 40px;
+.card {
+  background: #FFFFFF;
+  padding-bottom: 15px;
+  height: 100%;
 }
 
-.project-content h2 {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 23px;
-    font-size: 16px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #A71112;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-bottom: 30px;
+.card-row {
+  margin-top: 70px;
 }
 
-.project-content h3 {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 37px;
-    font-size: 25px;
-    color: #454545;
-    margin-top: 40px;
+.card img {
+  width: 100%;
 }
 
-.project-content p {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 23px;
-    font-size: 16px;
-    color: #454545;
-    margin-top: 15px;
+.card h2 {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #A71112;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }
 
-.details {
-    margin-top: 80px;
+.card span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+
+  color: #E5E5E5;
+
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-bottom: 0px;
 }
 
-.detail-label {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 23px;
-    font-size: 16px;
-    text-align: right;
-    letter-spacing: 0.05em;
-    color: #A71112;
+.card p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #454545;
+
+
+  margin: 10px 20px 15px 20px;
 }
 
-.detail-info {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-size: 16px;
-    color: #454545;
-    width: 100%;
+.card .thumb {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  text-align: center;
+
+  margin-bottom: 25px;
+  min-height: 170px;
 }
 
-.project-cover-img {
-    margin-top: 50px;
+#thumb1 {
+  background-image: url('../projects/aquarium/ur2.png');
 }
 
-.project-header {
-    font-family: 'Montserrat';
-    font-style: bold;
-    line-height: 35px;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-
-    color: #A71112;
-
-    margin-top: 80px;
+#thumb2 {
+  background-image: url('../projects/aquarium/ur3.png');
 }
 
-.underline {
-    width: 30px;
-    height: 3px;
-
-    background: #A71112;
-
-    margin-top: 5px;
+#thumb3 {
+  background-image: url('../projects/aquarium/ur4.png');
 }
 
-.image-para {
-    margin-top: 40px;
+#thumb4 {
+  background-image: url('../projects/aquarium/ur5.png');
 }
 
-.row p {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    font-size: 16px;
-
-    color: #454545;
+#thumb5 {
+  background-image: url('../projects/aquarium/ur6.png');
 }
 
-#user-research {
-    margin-top: 15px;
+.card .thumb h1 {
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 100%;
+  /* or 32px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  opacity: 1;
+
+
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.second-header {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 30px;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.05em;
-
-    color: #454545;
-
-    margin-top: 50px;
+.cute-h2 {
+  margin-left: -24px;
 }
 
-.list-item {
-    margin-top: 20px;
+.cute-h2 span {
+  margin-left: -24px;
 }
 
-.img-caption {
-    margin-top: 50px;
+.cute-row {
+  margin-top: 40px;
 }
 
-.img-caption h1 {
-
-    font-family: Montserrat;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 24px;
-    font-size: 16px;
-    text-align: center;
-
-    color: #454545;
-
-    opacity: 0.75;
+#b1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.quote-style {
-    margin-top: 40px;
+.caption {
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
-.quote-style p {
-    font-family: Montserrat;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 37px;
-    font-size: 24px;
-
-    color: #454545;
+#fi1 {
+  background-image: url('../projects/aquarium/fi1.png');
 }
 
-.picture-array {
-    margin-top: 40px;
+#fi2 {
+  background-image: url('../projects/aquarium/fi2.png');
 }
 
-.project-video {
-    margin-top: 80px;
+#fi3 {
+  background-image: url('../projects/aquarium/fi3.png');
 }
 
-#end {
-    min-height: 100px;
+#ci1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 991px) {
+#chargeit1 {
+  background-image: url('../projects/ChargeIt/ci1.png');
+}
 
-    .project-title-indi {
-        text-align: left;
-        font-size: 30px;
-        line-height: 45px;
-    }
+#wt1 {
+  background-image: url('../projects/WordTutor/wt1.png');
+}
 
-    .about-the-project h2 {
-        margin-top: 60px;
-    }
-
-    .left-desc {
-        position: relative;
-        margin-top: 80px;
-    }
-
-    .exit-cross {
-        position: relative;
-        margin: auto;
-    }
-
-    .cross-container {
-        position: fixed;
-        width: 100%;
-        background-color: white;
-        padding: 5%;
-        z-index: 1;
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
-    }
-
-    .project-content h1 {
-        line-height: 45px;
-    }
+#sw1 {
+  background-image: url('../projects/Swasthyaa/sw1.png');
 }

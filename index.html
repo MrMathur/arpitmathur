@@ -1,48 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta name="description" content="Arpit Mathur - Design Portfolio" />
-  <meta name="author" content="Arpit Mathur" />
-  <meta property="og:title" content="Arpit Mathur" />
-  <meta property="og:url" content="http://www.arpitmathur.info" />
-  <meta property="og:site_name" content="Arpit Mathur" />
-  <meta property="og:description" content="Design Portfolio" />
+  <link rel="shortcut icon" href="./images/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arpit Mathur's Design Portfolio</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./images/favicon.png" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./style/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="./style/main.css" />
-  <link rel="stylesheet" href="./style/project.css" />
-  <link rel="stylesheet" href="./style/animations.css" />
-
-  <!-- Angular JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.js"></script>
-
-  <!-- Scripts -->
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="./js/blink.js"></script>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-  <link rel="stylesheet" id="typehub-google-fonts-css" href="//fonts.googleapis.com/css?family=Montserrat%3A700%2C400%7CRaleway%3A400%7CCrimson+Text%3AItalic400%2C400Italic%7CSource+Sans+Pro%3A400&amp;ver=1.0"
-    type="text/css" media="all">
-
-  <title>Arpit Mathur - Design Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="js/main.js"></script>
 </head>
 
-<body ng-app="app">
-  <div ng-view class="view-animate"></div>
+<body>
+  <div class="container navigation-bar">
+    <div class="row">
+      <a class="col-lg-3" id="logo" href="./index.html">
+        ARPIT<span id="mathur">MATHUR</span>
+      </a>
+      <div class="col-lg-6"></div>
+      <a class="col-lg-1 navigation-item" id="active-navigation-item" href="./index.html">_work</a>
+      <a class="col-lg-1 navigation-item" href="#">about</a>
+      <a class="col-lg-1 navigation-item" href="./Resume.pdf" target="_blank">resume</a>
+    </div>
+  </div>
+  <div class="container hero-section">
+    <div class="row">
+      <div class="col-lg-12" id="greeting">_Namaste, I'm Arpit</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" id="intro">A First Year MS-HCI student at Georgia Tech, in search of the next step in his
+        career.</div>
+    </div>
+  </div>
+  <div class="container projects">
+    <div class="row filter">
+      <div class="col-lg-2"></div>
+      <!-- <div class="col-lg-2 filter-item" id="active-filter-item">_all</div>
+      <div class="col-lg-2 filter-item">design</div>
+      <div class="col-lg-2 filter-item">research</div>
+      <div class="col-lg-2 filter-item">code</div> -->
+      <div class="col-lg-2"></div>
+    </div>
+    <div class="row project-row">
+      <div class="col-lg-4">
+        <a href="./projects/aquarium/aquarium.html"><img src="images/Thumbnails/Aquarium.png"
+            class="project-thumbnail" /></a>
+      </div>
+      <!-- <div class="col-lg-4">
+        <a href="#"><img src="images/Thumbnails/VizSports.png" class="project-thumbnail" /></a>
+      </div> -->
+      <div class="col-lg-4">
+        <a href="./projects/Swasthyaa/swasthyaa.html"><img src="images/Thumbnails/Swasthyaa.png"
+            class="project-thumbnail" /></a>
+      </div>
+      <div class="col-lg-4">
+        <a href="./projects/WordTutor/wordtutor.html"><img src="images/Thumbnails/WordTutor.png"
+            class="project-thumbnail" /></a>
+      </div>
+    </div>
+    <div class="row project-row">
+      <div class="col-lg-4">
+        <a href="./projects/ChargeIt/chargeit.html"><img src="images/Thumbnails/ChargeIt.png"
+            class="project-thumbnail" /></a>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

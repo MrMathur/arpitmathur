@@ -1,0 +1,139 @@
+/* ___ NAVIGATION ____ */
+
+.navigation-bar {
+  padding: 25px;
+  background-color: white;
+}
+
+#logo {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #C90708;
+}
+
+.navigation-item {
+  top: 11px;
+
+  font-family: Inconsolata, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  opacity: 0.5;
+
+  transition: 0.33s ease all;
+
+}
+
+.navigation-item:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #000000;
+}
+
+#active-navigation-item {
+  font-weight: bold;
+  opacity: 1;
+}
+
+#mathur {
+  color: #454545;
+}
+
+/* HERO */
+
+#greeting {
+  font-family: Inconsolata, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #C90708;
+
+  margin-top: 100px;
+}
+
+#intro {
+
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 125%;
+  /* or 52px */
+  text-align: center;
+
+  color: #454545;
+
+  opacity: 0.75;
+
+  margin-top: 50px;
+
+}
+
+/* PROJECTS */
+
+.filter {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.filter-item {
+  font-family: Inconsolata, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  opacity: 0.5;
+
+}
+
+#active-filter-item {
+
+  font-weight: bold;
+  opacity: 1;
+}
+
+.project-thumbnail {
+  width: 100%;
+  transition: 0.33s ease all;
+}
+
+.project-thumbnail:hover {
+  opacity: 0.33;
+}
+
+.project-row {
+  margin-bottom: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}

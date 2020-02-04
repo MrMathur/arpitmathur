@@ -13,6 +13,22 @@
   background-image: url('../projects/aquarium/ga1.png');
 }
 
+.cute-label {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 152.38%;
+  letter-spacing: 1px;
+
+  /* or 24px */
+
+  color: #454545;
+
+
+}
+
 #p2 {
   background-image: url('../projects/aquarium/ga2.png');
 }
@@ -72,7 +88,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 152.38%;
+  line-height: 24px;
   /* or 24px */
 
   color: #454545;
@@ -358,4 +374,26 @@
 iframe {
   margin-top: 40px;
   margin-bottom: 80px;
+}
+
+.video-row {
+  margin-top: 100px;
+}
+
+.video-row .containing-div {
+  display: table;
+  height: 500px;
+}
+
+.video-row .containing-div p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#sr1 {
+  background-image: url('../projects/aquarium/sr1.png');
+}
+
+#sr2 {
+  background-image: url('../projects/aquarium/sr2.png');
 }

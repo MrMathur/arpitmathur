@@ -46,12 +46,13 @@
         <h1>THE PROBLEM</h1>
         <p>The world is facing a large threat in the form of vehicular pollution. Those willing to make a difference in
           the form of electric vehicles, face numerous challenges in battery management and maintenance, having to plan
-          their trips around power stations and their fuel consumption.<br />
+          their trips around power stations and battery consumption.<br />
           <img src="snapshot1.png" />
         </p>
         <h1>THE SOLUTION</h1>
-        <p>We designed a mobile app, that keeps track of fuel as well as other maintenance factors. The application
-          ensures that there is sufficient fuel to complete intended trips, and issues warnings on low fuel levels. It
+        <p>We designed a mobile app, that keeps track of battery and other maintenance factors. The application
+          ensures that there is sufficient charge to complete intended trips, and issues warnings on low battery levels.
+          It
           also acts as a facilitator between service stations and end-users.</p>
         <img src="./snapshot2.png" style="width: 100%;" />
       </div>
@@ -114,9 +115,9 @@
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-8">
           <h1>Literature Review</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut quidem, earum nesciunt quos iste
-            cupiditate quisquam a eaque quasi. Est consequatur vitae quaerat eligendi, quidem ipsum voluptate aut
-            pariatur.</p>
+          <p>To get an understanding of the problem space, we perused existing literature on electric vehicles. This was
+            in the form of academic papers, as well as blog posts on various forums (such as Reddit and Quora). Some of
+            the motivations behind users adopting e-vehicles are as follows:</p>
         </div>
       </div>
       <div class="row">
@@ -164,9 +165,9 @@
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-8">
           <h1>User Research</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, praesentium in dicta reiciendis, ea quam,
-            neque repellendus nostrum laboriosam enim provident incidunt corrupti nobis dignissimos vero tenetur minima
-            delectus cupiditate.</p>
+          <p>We recruited 8 participants and conducted remote unstructured interviews pertaining to the problems they
+            faced in the adoption of e-vehicles. The interviews were conducted telephonically and lasted 25 minutes.
+            Analysis of the data revealed common problems are shown below: </p>
         </div>
       </div>
       <div class="row" style="margin-bottom: 25px;">
@@ -229,8 +230,8 @@
             </div>
             <div class="col-lg-9">
               <h2>Expensive Setup</h2>
-              <p>Users are not educated about the functioning of e-vehicles. There is sparcity of service stations and
-                power stations in most countries </p>
+              <p>e-vehicles are expensive, and the setup cost of installign the infrastructure for charging at one's
+                home can be expensive. </p>
             </div>
           </div>
         </div>
@@ -242,9 +243,9 @@
       <div class="row">
         <div class="col-lg-8">
           <h1>Personae</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut quidem, earum nesciunt quos iste
-            cupiditate quisquam a eaque quasi. Est consequatur vitae quaerat eligendi, quidem ipsum voluptate aut
-            pariatur.</p>
+          <p>We encapsulated our research findings in the form of personae, to address those that we were designing for
+            while keeping our solutions user-centered. The two personae we devised were different in their usage of
+            vehicles, as well as in the availability of charging outlets:</p>
         </div>
       </div>
       <div class="row">
@@ -289,9 +290,34 @@
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-8">
           <h1>User Flows</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, praesentium in dicta reiciendis, ea quam,
-            neque repellendus nostrum laboriosam enim provident incidunt corrupti nobis dignissimos vero tenetur minima
-            delectus cupiditate.</p>
+          <p>We mapped out how the user will interact with the mobile application using user flows. We made different
+            flows for the onboarding, linking one's card to the application, making a trip, and detecting/reporting car
+            issues. We followed the following conventions for the user flows:</p>
+          <img style="width: 100%;" src="./uf0.png" />
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+        <div class="col-lg-12">
+          <h2>ONBOARDING USER FLOW</h2>
+          <img style="width: 100%" src="./uf1.png" />
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+        <div class="col-lg-9">
+          <h2>ADDING A CAR USER FLOW</h2>
+          <img style="width: 100%" src="./uf2.png" />
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+        <div class="col-lg-12">
+          <h2>TAKING A TRIP USER FLOW</h2>
+          <img style="width: 100%" src="./uf3.png" />
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+        <div class="col-lg-8">
+          <h2>DETECTING ISSUES USER FLOW</h2>
+          <img style="width: 100%" src="./uf4.png" />
         </div>
       </div>
     </div>
@@ -301,9 +327,11 @@
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-8">
           <h1>Wireframing</h1>
-          <p>The proposed solution is an app that helps an electrical vehicle user monitor their battery usage and other
-            health parameters. The vehicle’s internal systems are fitted with IoT devices, sending data to the app, and
-            the user can make sense of them through data viz techniques.</p>
+          <p>
+            We then converted the user flows into low-fidelity wireframes. The wireframes were designed on Balsamiq
+            Wireframes. Designing the wireframes uncovered multiple problems in the flows, which resulted in
+            reiterations. The flow of the app using wireframes is shown below:
+          </p>
         </div>
       </div>
       <div class="row">
@@ -316,9 +344,36 @@
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-8">
           <h1>Style Guide</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, praesentium in dicta reiciendis, ea quam,
-            neque repellendus nostrum laboriosam enim provident incidunt corrupti nobis dignissimos vero tenetur minima
-            delectus cupiditate.</p>
+          <p>To develop high-fidelity prototypes, we first developed a style guide for our application. The application
+            required a clean, minimal workhorse font. We decided to use Montserrat. Further, we chose green as the
+            primary color for the app, as e-vehicles are eco-friendly.</p>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 50px;">
+        <div class="col-lg-5">
+          <h2>TYPOGRAPHY</h2>
+          <img style="width: 100%; margin-top: 25px;" src="./sg1.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <h2>COLOURS</h2>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+        <div class="col-lg-2">
+          <img src="./sg3.png" style="width: 100%;" />
+          <p style="text-align: center;">#229C6F</p>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+          <img src="./sg4.png" style="width: 100%;" />
+          <p style="text-align: center;">#454D48</p>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+          <img src="./sg5.png" style="width: 100%;" />
+          <p style="text-align: center;">#F2994A</p>
         </div>
       </div>
     </div>

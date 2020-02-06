@@ -430,3 +430,39 @@ iframe {
   margin-top: 50px;
 
 }
+
+.green-bg {
+  background-color: #229C6F;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.green-bg p {
+
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em;
+  /* or 18px */
+
+  color: #fff;
+}
+
+.green-bg h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  margin-bottom: 20px;
+}

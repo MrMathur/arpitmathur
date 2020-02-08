@@ -175,3 +175,66 @@ a:hover {
 .soc-icons a:hover {
   opacity: 1;
 }
+
+.about-me {
+  margin-top: 50px;
+}
+
+.about-me p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #454545;
+}
+
+.current-work {
+  margin-top: 80px;
+}
+
+.current-work h1 {
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125%;
+  /* identical to box height, or 40px */
+
+  color: #454545;
+
+  opacity: 0.85;
+
+  margin-bottom: 25px;
+
+}
+
+.current-work h2 {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #A71112;
+}
+
+.current-work p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 24px */
+
+  color: #454545;
+
+  margin-top: 10px;
+}

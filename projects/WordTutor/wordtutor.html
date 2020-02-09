@@ -17,19 +17,38 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&display=swap" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-  <script src="js/main.js"></script>
+  <script src="../../js/main.js"></script>
+  <script src="../../js/scroll.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158031087-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158031087-1');
+  </script>
 </head>
 
 <body>
-  <div class="navigation-bar">
-    <div class="container">
-      <div class="row">
-        <a href="../../index.html" class="col-lg-3" id="logo">ARPIT<span id="mathur">MATHUR</span></a>
-        <div class="col-lg-6"></div>
-        <a class="col-lg-1 navigation-item" id="active-navigation-item" href="#">_work</a>
-        <a class="col-lg-1 navigation-item" href="../../about.html">about</a>
-        <a class="col-lg-1 navigation-item" href="../../Resume.pdf" target="_blank">resume</a>
+  <div class="top-nav-bar">
+    <div class="navigation-bar">
+      <div class="container">
+        <div class="row">
+          <a href="../../index.html" class="col-lg-3" id="logo">ARPIT<span id="mathur">MATHUR</span></a>
+          <div class="col-lg-6"></div>
+          <a class="col-lg-1 navigation-item" id="active-navigation-item" href="../../index.html">_work</a>
+          <a class="col-lg-1 navigation-item" href="../../index.html">about</a>
+          <a class="col-lg-1 navigation-item" href="../../Resume.pdf" target="_blank">resume</a>
+        </div>
       </div>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
     </div>
   </div>
   <div class="parallax" id="wt1">

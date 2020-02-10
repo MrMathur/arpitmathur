@@ -482,3 +482,7 @@ iframe {
   background: #C90708;
   width: 0%;
 }
+
+#vs1 {
+  background-image: url('../projects/VizSports//vs1.png');
+}

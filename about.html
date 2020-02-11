@@ -17,6 +17,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script src="js/main.js"></script>
+  <script src="./js/blink.js"></script>
+  <script src="./js/typed.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158031087-1"></script>
@@ -33,7 +35,7 @@
 </head>
 
 <body>
-  <div class="container navigation-bar">
+  <div class="container navigation-bar" animate>
     <div class="row">
       <a class="col-lg-3" id="logo" href="./index.html">
         ARPIT<span id="mathur">MATHUR</span>
@@ -46,10 +48,12 @@
   </div>
   <div class="container hero-section">
     <div class="row">
-      <div class="col-lg-12" id="greeting">_Namaste, I'm Arpit</div>
+      <div class="col-lg-12" id="greeting">
+        <blink>_</blink><span id="demo"></span>
+      </div>
     </div>
   </div>
-  <div class="container about-me">
+  <div class="container about-me" animate>
     <div class="row">
       <div class="col-lg-8">
         <img src="./images/arpit.png" style="width: 100%;" />
@@ -73,7 +77,7 @@
       </div>
     </div>
   </div>
-  <div class="container current-work">
+  <div class="container current-work" animate>
     <div class="row">
       <h1 class="col-lg-12">Currently working on...</h1>
     </div>
@@ -107,7 +111,7 @@
       </div>
     </div>
   </div>
-  <div class="container footer">
+  <div class="container footer" animate>
     <div class="row">
       <div class="col-lg-4">
       </div>

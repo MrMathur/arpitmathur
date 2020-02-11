@@ -17,6 +17,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   <script src="js/main.js"></script>
+  <script src="./js/blink.js"></script>
+  <script src="./js/typed.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158031087-1"></script>
@@ -33,7 +35,7 @@
 </head>
 
 <body>
-  <div class="container navigation-bar">
+  <div class="container navigation-bar" animate>
     <div class="row">
       <a class="col-lg-3" id="logo" href="./index.html">
         ARPIT<span id="mathur">MATHUR</span>
@@ -46,14 +48,16 @@
   </div>
   <div class="container hero-section">
     <div class="row">
-      <div class="col-lg-12" id="greeting">_Namaste, I'm Arpit</div>
+      <div class="col-lg-12" id="greeting">
+        <blink>_</blink><span id="demo"></span>
+      </div>
     </div>
-    <div class="row">
+    <div class="row" animate>
       <div class="col-lg-12" id="intro">A First Year MS-HCI student at Georgia Tech, in search of the next step in his
         career.</div>
     </div>
   </div>
-  <div class="container projects">
+  <div class="container projects" animate>
     <div class="row filter">
       <div class="col-lg-2"></div>
       <!-- <div class="col-lg-2 filter-item" id="active-filter-item">_all</div>
@@ -87,7 +91,7 @@
       </div>
     </div>
   </div>
-  <div class="container footer">
+  <div class="container footer" animate>
     <div class="row">
       <div class="col-lg-4">
       </div>

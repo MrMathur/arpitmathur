@@ -501,3 +501,60 @@ body {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .navigation-item {
+    margin-bottom: 10px;
+  }
+
+  .parallax h1 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  .snapshot p {
+    line-height: 200%;
+  }
+
+  .blue-bg p {
+    line-height: 200%;
+  }
+
+  .blue-bg h1 {
+    font-size: 24px;
+  }
+
+  .white-bg h1 {
+    font-size: 24px;
+  }
+
+  .white-bg p {
+    line-height: 200%;
+    margin-bottom: 32px;
+  }
+
+  .card {
+    margin-bottom: 16px;
+    height: auto;
+  }
+
+  .card-row {
+    margin-top: 0px;
+  }
+
+  .cute-h2 circle {
+    display: none;
+  }
+
+  .video-row .containing-div {
+    height: auto;
+  }
+
+  .video-row .containing-div p {
+    display: block;
+  }
+
+  #video-heading-2 {
+    margin-top: 50px;
+  }
+}

@@ -12,7 +12,6 @@
   font-size: 26px;
   line-height: 38px;
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.05em;
@@ -256,5 +255,65 @@ a:hover {
 
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    text-align: left;
+    display: block;
+  }
+
+  .navigation-item {
+    top: 25px;
+    text-align: left;
+  }
+
+  #intro {
+    text-align: left;
+    font-size: 24px;
+    line-height: 200%;
+  }
+
+  #greeting {
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .filter {
+    margin-top: 10px
+  }
+
+  .project-thumbnail {
+    margin-bottom: 16px;
+  }
+
+  .project-row {
+    margin-bottom: 0px;
+  }
+
+  .soc-icons {
+    margin-top: 50px;
+  }
+
+  .about-me img {
+    margin-bottom: 32px;
+  }
+
+  .about-me p {
+    line-height: 200%;
+  }
+
+  .current-work {
+    margin-top: 30px;
+  }
+
+  .current-work h1 {
+    font-size: 24px;
+  }
+
+  .current-work p {
+    line-height: 200%;
+    margin-bottom: 32px;
   }
 }

@@ -11,4 +11,4 @@
             setTimeout(typeWriter, speed);
         }
     }
-    window.onload = setTimeout(typeWriter, 750);
+    // window.onload = setTimeout(typeWriter, 750);

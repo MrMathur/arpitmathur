@@ -1,0 +1,59 @@
+#about {
+  padding-top: 150px;
+}
+
+#about #about-desc {
+  margin-top: 30px;
+}
+
+#about #about-desc #email {
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  margin-left: 15px;
+}
+
+#about #frame {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background: #FFFFFF;
+  border: 1px solid #B22727;
+  box-sizing: border-box;
+
+  box-shadow: 10px 10px 0px #C90708;
+}
+
+#about #slick-frame {
+  border: 1px solid #B22727;
+  box-sizing: border-box;
+}
+
+#about #frame img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  #about {
+    padding-top: 60px;
+  }
+
+  #about #frame {
+    margin-top: 20px;
+    margin-left: -3px;
+
+    box-shadow: 6px 6px 0px #C90708;
+  }
+
+  #about #about-desc #email {
+    margin-left: 0px;
+  }
+}

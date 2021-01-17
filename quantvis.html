@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpit Mathur's Portfolio</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon.ico" />
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <!-- LAZY LOADING -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js">
+  </script>
+  <script src="./js/lazy.js"></script>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  </script>
+
+  <!-- TYPED JS-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!-- SLICK -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/about-slide.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="./style/project.css">
+  <link rel="stylesheet" href="./style/footer.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+  <!-- SCROLL -->
+  <script src="./js/scroll.js"></script>
+</head>
+
+<body>
+  <div id="nav-element">
+    <div id="nav-container">
+      <div class="container">
+        <div id="navbar">
+          <a class="active-item nav-item" id="back" href="./index.html#work">
+            &lt; back</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="header">
+      <div class="row">
+        <div class="col-lg-5">
+          <h2 class="project-title">
+            Visualizing <br />
+            Quantum Physics
+          </h2>
+          <div class="tags">
+            <span>UX Design</span>
+            <span>Front-End Development</span>
+            <span>2020</span>
+          </div>
+          <p>Creating interactive scrollytelling visualizations for the instruction of abstract Quantum Physics
+            concepts. These visualizations were used as course material for EC 3040 Semiconductor Devices.
+          </p>
+          <div id="details">
+            <p><b>Duration:</b> January 2020 - Present</p>
+            <p><b>Team:</b> Shreya Shenai, Lu Meng, Qu Wong</p>
+            <p><b>Role:</b> UX Research for all methods, Design and Implementation of the Screen Based
+              Solution</p>
+            <p><b>Context:</b> Graduate Research Assistantship Project at Georgia Tech.</p>
+          </div>
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-6 header-image">
+          <img style="margin-top: 50px;" class="lazy" data-src="./images/quant/header.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">BACKGROUND</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>To kick off the project, we had a detailed meeting with our stakeholders to understand their expectations
+            for the project. The result of the meeting was a triad of goals.</p>
+          <ol>
+            <li><span>Provide a technological and interactive solution that helps <b>alter the perception</b> of sharks
+                in the
+                minds
+                of the aquarium visitors from “fear” to “fascination”.</span></li>
+            <li><span>Provide a solution that provides an <b>entertaining</b>, engaging and immersive experience to the
+                aquarium
+                guests.</span></li>
+            <li><span>Provide a solution that ensures the <b>safety</b> and comfort of the marine animals, while also
+                keeping
+                them at
+                the center of the visitor’s focus.</span>
+            </li>
+          </ol>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <img class="lazy" data-src="./images/aquarium/stakeholder_meeting.png" />
+          <p class="image-caption">Recreating that child like curiousity to learn about these sharks through technology
+          </p>
+        </div>
+      </div>
+      <div class="row timeline">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>On the basis of this meeting, we discussed our time commitment, and decided to break down the timeline in
+            the following manner. At the end of the project, the aim was to have a working proof of concept, with
+            testing done for evaluation.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row timeline">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <img class="lazy" data-src="./images/aquarium/timeline.png" />
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">FORMATIVE RESEARCH</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>To begin, we conducted research with visitors at the aquarium, to understand the shortcomings of the
+            current exhibits. The proposed design of the predator project can be seen on the right, and we decided to
+            conduct research in current exhibits with similar structures.
+          </p>
+          <p>We employed the following research methods</p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <img id="aqua-tank" class="lazy" data-src="./images/aquarium/tank.png" />
+        </div>
+      </div>
+      <div class="row four-row">
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/observation.png" />
+          <br />
+          <h2>Field <br /> Observations</h2>
+          <p>Spent time silently observing the users from a distance, and taking notes.
+            Categorized observations using the AEIOU framework.
+            Conducted the observations for 5 exhibits similar in various ways to the Predator exhibit.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/survey.png" />
+          <br />
+          <h2>Online <br /> Surveys</h2>
+          <p>We designed a survey on qualtrics informed by our observations.
+            We distributed the survey online, and also went to the aquarium for on-site surveys.
+            Received a total of 202 responses.</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/interview.png" />
+          <br />
+          <h2>Semi-structored <br /> Interviews</h2>
+          <p>Identified themes informed by the observations and survey results.
+            Used the themes to guide an interview session with 10 users.
+            Asked follow up questions to explore interesting avenues.</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/dataelic.png" />
+          <br />
+          <h2>Data-Elicitation <br /> Methods
+          </h2>
+          <p>Had 21 participants sketch sharks and provided rationale behind specific features of sharks.
+            We had them make personal meaning maps to identify keywords associated with sharks.
+          </p>
+        </div>
+      </div>
+      <div class="row" style="margin-top:100px">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>The research methods provided us with a lot of raw data. We categorized the data into three different
+            categories and employed different methods to make sense of them. The goal of the analysis was to convert raw
+            data into formats that inform brainstorming.
+          </p>
+          <ol>
+            <li><span><b>Quantitative Data Analysis: </b>In order to identify trends and opportunities for designs, we
+                visualized data in the form of bar graphs and pie charts. The trends helped result in inferences and
+                personae.</span></li>
+            <li><span><b>Affinity Diagramming: </b>We started with individual user quotes and observations, and after
+                four layers of grouping, identified themes.</span></li>
+            <li><span><b>Sketches and Maps: </b>The data from the data-elicitation methods consisted of sketches and
+                personal meaning maps. We created word-cloud visualizations to illustrate the perception of sharks in
+                the minds of the general public. This was validation for the assumption that sharks get a bad
+                reputation.</span>
+            </li>
+          </ol>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="photo-maze">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <img class="lazy" data-src="./images/aquarium/affmap.png" />
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
+            <img class="lazy" data-src="./images/aquarium/sketchandmap.png" />
+          </div>
+          <div class="col-lg-5">
+            <img class="lazy" data-src="./images/aquarium/tagcloud.png" />
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            User Research provided us data. However, data is not usable to the designer in raw format.</p>
+          <p>We identified
+            some notable findings through our research, and discussed the implications these findings might have on our
+            proposed solutions. We identified 18 such findings and their implications. Some of the findings relevant to
+            our final design our listed here.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row four-row">
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/di1.png" />
+          <br /><br />
+          <p><b>Finding:</b> Most visitors to the aquarium travel in families, or groups of friends.
+          </p>
+          <p><b>Implication:</b> The solution should afford interaction with, and facilitate interaction amongst, all
+            members of the group/family.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/di2.png" />
+          <br /><br />
+          <p><b>Finding:</b> Current information mechanisms are ineffective.
+          </p>
+          <p><b>Implication:</b> Employ better methods of information dissemination that are attractive, as well as
+            helpful in retaining information.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/di3.png" />
+          <br /><br />
+          <p><b>Finding:</b> Parents compromise their own experience for their children to enjoy.
+          </p>
+          <p><b>Implication:</b> Consider solutions that enable different family members to play different roles while
+            providing a pleasant experience to all.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/di4.png" />
+          <br /><br />
+          <p><b>Finding:</b> Anthropomorphism of marine animals helps with retention.
+          </p>
+          <p><b>Implication:</b>The solution should afford interaction with, and facilitate interaction amongst, all
+            members of the group/family.
+          </p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            In order to ensure that our designs remain user-centered, we took the data gathered from our User Research
+            and designed the following Personae that encapsulated the characteristics of our target users. We went from
+            designing for visitors to designing for the Richards family.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" style="margin-top: 50px;">
+          <img class="lazy" data-src="./images/aquarium/persona.png" />
+          <br /><br />
+          <p class="image-caption">Designing for the Richards Family</p>
+        </div>
+        <div class="col-g-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">IDEATION</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>Now, we wanted to use the research outcomes to brainstorm a large number of ideas. We put up the design
+            implications and personae on the board, and spent time thinking of ideas individually. We then
+            had a discussion and came up with more ideas to pursue.</p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <img style="transform: translateY(-100px);" class="b1 lazy" data-src="./images/aquarium/b1.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            We evaluated our ideas on the basis of feasibility, effectiveness as well as creativity. We shortlisted 4
+            design ideas, taking different approaches to tackle the problem statement. We sketched the essential
+            features and working of the ideas.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row four-row">
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/1idea.png" />
+          <br />
+          <h2>Mobile Based <br /> Pokedex</h2>
+          <p>Through a mobile app, you can scan a shark at the aquarium, and find out about the rescue story of that
+            particular shark.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/2idea.png" />
+          <br />
+          <h2>Interactive <br /> Screen</h2>
+          <p>A touch based interface, where you can interact with digital representations of the sharks, to get
+            information about them.</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/3idea.png" />
+          <br />
+          <h2>Shark's Point <br /> of View</h2>
+          <p>You can view the point of view of a shark through your mobile screen, and identify whether different
+            objects are food or not.</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="lazy" data-src="./images/aquarium/4idea.png" />
+          <br />
+          <h2>Visualizing Ocean <br /> Without Sharks
+          </h2>
+          <p>An interactive projection on the walls of the tank, visualizing a dirty and overpopulated ocean without of
+            sharks.
+          </p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 70px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            We needed an evaluation of our ideas to identify characteristics that are desirable. At this stage of the
+            evaluation we decided to take
+            input from the stakeholders. We presented the ideas in the form of sketches to the stakeholders, and asked
+            them to discuss pros and cons.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" style="margin-top: 50px;">
+          <img class="lazy" data-src="./images/aquarium/stakeholder_feedback.png" />
+          <br /><br />
+          <p class="image-caption">Gathering Feedback from Stakeholders</p>
+        </div>
+        <div class="col-g-1"></div>
+      </div>
+      <div class="row" style="margin-top: 70px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            Based on the feedback, it was clear that while each design idea had unique positives, they also had several
+            issues pertaining to usability, feasibility, and safety of marine animals. There was no clear favorite among
+            the four ideas for our stakeholders.
+          </p>
+          <p>We took the positive components from each solution to form a coherent experience for the visitors. The
+            final solution would consist of interactive QR code posters, a mobile web-based interface, and an
+            interactive screen. The flow of the proposed solution is as follows:</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <img style="margin-top: 50px;" class="lazy" data-src="./images/aquarium/flow.png" />
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">LOW FI PROTOTYPING</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>We then went on to develop low-fidelity prototypes of each component of the solution. We kept the
+            prototypes low fidelity, in order to gain conceptual feedback, rather than feedback about the details of the
+            design. The prototypes were of the following 3 kinds: </p>
+          <ol>
+            <li><span><b>Poster Design Layout: </b>The poster would have instructions for Tom
+                (parent) to interact with the exhibition. Tom can use his phone to scan the QR code for one of the
+                sharks on the poster. </span></li>
+            <li><span><b>Mobile Interface Wireframes: </b>The mobile interface would give information to Tom (parent)
+                about the Shark's role in nature's ecosystem. Tom can also personalize his own shark. </span></li>
+            <li><span><b>Screen Paper Prototypes: </b>
+                Tom (parent) can use his phone to add the personalised shark into the "virtual ocean" on the
+                screen-based interface through NFC. Megan (child) then plays with the interface to drop different
+                species into the "virtual ocean", in turn learning what is food for her shark.
+              </span></li>
+          </ol>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <img class="lazy" data-src="./images/aquarium/poster.png" />
+          <br />
+          <br />
+          <p class="image-caption">Poster Layout Wireframe</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-lg-7">
+          <img class="lazy" data-src="./images/aquarium/wireframe.png" />
+          <br />
+          <br />
+          <p class="image-caption">Flow for Mobile Wireframes</p>
+        </div>
+        <div class="col-lg-5">
+          <img class="lazy" data-src="./images/aquarium/paper-proto.png" />
+          <br />
+          <br />
+          <p class="image-caption">Paper Prototype for Screen-based Interface</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            We wanted to test the concept of the entire flow of our solution. To achieve this goal, we recruited 4
+            participants and had them role-play members of two different families. They then interacted with the
+            prototypes and provided us with feedback regarding their interactions.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" style="margin-top: 50px;">
+          <img class="lazy" data-src="./images/aquarium/feedback-user.png" />
+          <br /><br />
+          <p class="image-caption">Gathering Feedback from Target Users</p>
+        </div>
+        <div class="col-g-1"></div>
+      </div>
+      <div class="row" style="margin-top: 25px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            The session provided us with multiple insights. The participants responded positively to the proposed
+            solution. We got feedback on the design of each component of the solution and altered the designs to reflect
+            them. We implemented these changes in the high-fidelity prototypes.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">HIGH FI PROTOTYPING</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>
+            We incorporated our findings from the feedback session into our high-fidelity prototypes. We 3D
+            printed the poster, designed the web-based interface on sketch and principle, and developed the screen-based
+            game using p5.js and p5.play.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" style="margin-top: 50px;">
+          <img class="lazy" data-src="./images/aquarium/hifi.png" />
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            Created for each shark species, various posters will be situated next to multiple viewing glasses. There is
+            the lifelike shark that first draws the attention of visitors. On the bottom, there is a QR code, scanning
+            which redirects the user to a mobile-based web experience.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <img class="lazy" data-src="./images/aquarium/fdp1.png" />
+          <br /><br />
+          <p class="image-caption">Changes from Feedback Session</p>
+        </div>
+        <div class="col-g-1"></div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-5">
+          <p>
+            The QR code leads to a web-page, through which the user can access information about the species they have
+            scanned. The user can personalize a digital shark of the same species. Finally, the user is given
+            instructions to proceed with the final aspect, the screen-based interface.
+          </p>
+          <ol>
+            <li><span>Using a <b>browser based website</b> instead of a mobile app ensures that visitors don't have to
+                download "one
+                more app" just for their aquarium visit.</span></li>
+            <li><span>The information and interaction are <b>concise</b>, and make sure that the mobile viewing does not
+                hinder the viewing experience.</span></li>
+            <li><span><b>Personalising</b> and <b>Anthropomorphising</b> the shark ensure that the visitors retain the
+                information they consume about the shark.</span></li>
+          </ol>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4" style="margin-top: -50px">
+          <video width="100%" autoplay loop>
+            <source src="./images/aquarium/RPrototypeVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-5" style="margin-top: -50px;">
+          <img class="lazy" data-src="./images/aquarium/fds2.webp" />
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+          <p>The personalized shark is dropped into an interactive screen interface through NFC technology. There is
+            also a panel of buttons displaying different species of marine animals. Pressing a button drops a specimen
+            into the ocean, and interacts with the sharks to give information.</p>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            The user can then interact with the button panel, and enter different marine animals into the interactive
+            screen. If the animal is food for sharks, the user's shark approaches the animal and eats it up. A popup
+            gives data about the role of sharks eating that particular species.
+          </p>
+          <p>
+            If the user enters an animal that their particular species of shark does not eat, the animal approaches the
+            animal but does not eat. A popup gives data about why the shark does not eat that particular animal. This
+            can help demystify myths about how sharks eat humans.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <video width="100%" autoplay loop>
+            <source src="https://kundu.design/wp-content/uploads/2020/01/interactive-display.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <br /><br />
+          <p class="image-caption">Shark Interacting with Food</p>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <video width="100%" autoplay loop>
+            <source src="https://kundu.design/wp-content/uploads/2020/01/interactive-display-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <br /><br />
+          <p class="image-caption">Shark Interacting with Humans</p>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">USER TESTING</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <p>
+            With our final designs ready, we moved onto conducting a thorough and detailed evaluation. We wanted
+            feedback on specific design details of our high-fidelity prototypes, and the experience our solutions
+            provided to our users. We wanted feedback from end-users, as well as experts.
+          </p>
+          <p>We used the following methods for evaluation.</p>
+          <ol>
+            <li><span><b>Cognitive Walkthrough: </b> Conducted the session with 6 experts. Asked them to interact with
+                the solution by giving them tasks, and interviewed them.</span></li>
+            <li><span><b>Task-based User Testing: </b> We recruited 2 groups of 4, and had them play different roles of
+                family members. We had them interact with our solution through the Wizard of Oz technique, and then
+                interviewed them.</span></li>
+          </ol>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+        </div>
+      </div>
+      <div class="photo-maze">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <img class="lazy" data-src="./images/aquarium/1test.png" />
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5">
+            <img class="lazy" data-src="./images/aquarium/3test.png" />
+          </div>
+          <div class="col-lg-5">
+            <img class="lazy" data-src="./images/aquarium/2test.png" />
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            The solution was received well and provided an overall pleasant and enjoyable experience to the visitors.
+            The testing also suggested that there was scope for improvement, and certain aspects of the solution
+            required more thought. These are shown as follows:</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-6">
+          <img class="lazy" data-src="./images/aquarium/tr1.png" />
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+          <p>Visitors might not be willing to scan QR codes without knowing what is in store for them. They cannot
+            expect what are the outcomes of scanning QR codes, so they are apprehensive of doing so. It will be better
+            to get a preview of what comes next after scanning QR codes.</p>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-4">
+          <p>
+            Some users did not understand what NFC scanning is and how it works. There is too much technical jargon
+            used that may make users uneasy. We can replace jargon with friendly language that everyone understands and
+            make it accessible to users with varying levels of technical skills.</p>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <img class="lazy" data-src="./images/aquarium/tr2.png" />
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <p>
+            The message behind the dead and barren ocean in the absence of sharks was misunderstood by most people. We
+            can animate the interactive screen to visualize the percentage of sharks in the ocean, developing a stronger
+            correlation between the ocean and the population of sharks.</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+      <div class="row" style="margin-top: 25px;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <video width="100%" autoplay loop>
+            <source src="./images/aquarium/tr3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="floor-fade"></div>
+  <div class="container">
+    <div class="section">
+      <div class="row title-row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">LESSONS LEARNED</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <ol>
+            <li><span><b>Working with Industry Partners: </b>
+                I learned that it is important to keep the stakeholders in the loop, and their goals can be in unison
+                with the users'.
+              </span></li>
+            <li><span><b>Involving Users in Iterative Design: </b>
+                I learned the value of taking feedback for every iteration of the solution, and how it helps the
+                designer look beyond their biases.</span></li>
+            <li><span><b>Context is Important: </b>
+                Richer data can be gathered on the field, as compared to recreating the setting artificially in a lab.
+                Moreover, the fidelity of the design effects the quality of feedback.</span></li>
+          </ol>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <img class="lazy b1" data-src="./images/aquarium/ll1.jpg" />
+          <br /><br />
+          <p class="image-caption">Reach out to learn more!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="footer">
+      <span id="icons">
+        <a href="https://www.linkedin.com/in/arpitmathurinfo/" target="_blank"><img
+            src="./images/Social/LinkedIn.svg" />
+        </a>
+        <a href="mailto:arpit.mathur@gatech.edu" target="_blank">
+          <img src="./images/Social/Mail.svg" />
+        </a>
+        <a href="https://medium.com/@arpitmathur19" target="_blank">
+          <img src="./images/Social/Medium.svg" />
+        </a>
+        <a href="https://dribbble.com/arpitmathur19" target="_blank">
+          <img src="./images/Social/Dribbble.svg" />
+        </a>
+      </span>
+      <div id="footnote">
+        Design and Code by Yours Truly </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+#footer {
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+#footer #icons {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+#footer #icons a {
+  opacity: 0.3;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#footer #icons a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+#footer #footnote {
+  margin: auto;
+  text-align: center;
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+
+  color: #454545;
+
+  opacity: 0.45;
+
+}
+
+@media only screen and (max-width: 800px) {
+  #footer {
+    padding-top: 60px;
+  }
+
+  #footer #icons a {
+    opacity: 0.3;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

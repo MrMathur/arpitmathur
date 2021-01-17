@@ -1,560 +1,178 @@
-.parallax {
-  width: 100vw;
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  text-align: center;
+#header {
+  padding-top: 160px;
 }
 
-#p1 {
-  background-image: url('../projects/aquarium/ga1.png');
-}
+#header .project-title {
 
-.cute-label {
-
-  font-family: Fira Sans;
+  font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 152.38%;
-  letter-spacing: 1px;
-
-  /* or 24px */
-
-  color: #454545;
-
-
-}
-
-#p2 {
-  background-image: url('../projects/aquarium/ga2.png');
-}
-
-#p3 {
-  background-image: url('../projects/aquarium/ga3.png');
-}
-
-#p4 {
-  background-image: url('../projects/aquarium/ga4.png');
-}
-
-#p5 {
-  background-image: url('../projects/aquarium/ga5.png');
-}
-
-.parallax h1 {
-
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 125%;
-  /* or 52px */
-  text-align: center;
-
-  color: #FFFFFF;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.snapshot {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.logos {
-  margin-bottom: 40px;
-}
-
-.snapshot h1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
+  font-size: 2.56em;
+  line-height: 100%;
+  /* or 36px */
   letter-spacing: 0.05em;
-
-  color: #A71112;
-  margin-bottom: 5px;
-}
-
-.snapshot p {
-
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 24px */
-
-  color: #454545;
-  margin-bottom: 25px;
-}
-
-.snapshot img {
-  margin-top: 15px;
-}
-
-.blue-bg {
-  background-color: #EEF3F5;
-  padding-top: 80px;
-  padding-bottom: 120px;
-}
-
-.blue-bg h1 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 125%;
-  /* identical to box height, or 40px */
 
   color: #454545;
 
   opacity: 0.85;
 
-  margin-bottom: 20px;
 }
 
-.blue-bg p {
+#header .tags {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#header .tags span {
+  font-family: 'Fira Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+  opacity: 0.5;
+
+  margin-right: 16px;
+}
+
+#header #details {
+  margin-top: 30px;
+}
+
+#header .header-image img {
+  width: 100%;
+}
+
+.floor-fade {
+  height: 50px;
+  width: 100%;
+
+  background: linear-gradient(0deg, rgba(225, 225, 225, 0.5) 0%, rgba(224, 224, 224, 0) 100%);
+  opacity: 0.5;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.section .title-row {
+  margin-bottom: 50px !important;
+}
+
+.section ol {
+  list-style: none;
+  margin-top: 50px;
+  counter-reset: custom;
+}
+
+.section ol li {
 
   font-family: Fira Sans;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5em;
-  /* or 18px */
+  font-size: 1em;
+  line-height: 1.75em;
 
   color: #454545;
-}
 
-.blue-bg h2 {
+  margin-bottom: 0.75em;
 
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #A71112;
+  counter-increment: custom;
 
   margin-bottom: 20px;
 }
 
-.white-bg h2 {
-
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #A71112;
+.section ol li span {
+  margin-left: 12px;
 }
 
-.blue-bg img {
-  margin-bottom: 17px;
-}
+.section ol li::before {
+  content: counter(custom);
 
-.white-bg {
-  padding-top: 80px;
-  padding-bottom: 120px;
-}
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
 
-.white-bg h1 {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 125%;
-  /* identical to box height, or 40px */
-
-  color: #454545;
-
-  opacity: 0.85;
-
-  margin-bottom: 20px;
-
-}
-
-.white-bg p {
-
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 152.38%;
-  /* or 24px */
-
-  color: #454545;
-
-
-}
-
-.card {
   background: #FFFFFF;
-  padding-bottom: 15px;
-  height: 100%;
+  border: 1px solid #C90708;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 0px #C90708;
+
+  margin-left: -47px;
+
 }
 
-.card-row {
+.section ol li b {
+  font-weight: normal;
+  color: #C90708;
+}
+
+.section img {
+  width: 100%;
+}
+
+#aqua-tank {
+  transform: translateY(-50px);
+}
+
+.section .image-caption {
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.timeline p {
+
   margin-top: 70px;
 }
 
-.card img {
-  width: 100%;
+.timeline img {
+  margin-top: 20px;
 }
 
-.card h2 {
 
-  font-family: Montserrat;
+.four-row {
+  margin-top: 30px;
+}
+
+.four-row h2 {
+
+  font-family: Bai Jamjuree;
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1em;
+  /* or 22px */
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #A71112;
-  margin-left: 20px;
-  margin-bottom: 0px;
-}
-
-.card span {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  text-transform: lowercase;
-
-  color: #E5E5E5;
-
-  margin-left: 5px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-}
-
-.card p {
-
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 150%;
 
   color: #454545;
 
+  opacity: 0.85;
 
-  margin: 10px 20px 15px 20px;
 }
 
-.card .thumb {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  text-align: center;
-
-  margin-bottom: 25px;
-  min-height: 170px;
-}
-
-#thumb1 {
-  background-image: url('../projects/aquarium/ur2.png');
-}
-
-#thumb2 {
-  background-image: url('../projects/aquarium/ur3.png');
-}
-
-#thumb3 {
-  background-image: url('../projects/aquarium/ur4.png');
-}
-
-#thumb4 {
-  background-image: url('../projects/aquarium/ur5.png');
-}
-
-#thumb5 {
-  background-image: url('../projects/aquarium/ur6.png');
-}
-
-.card .thumb h1 {
-
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 100%;
-  /* or 32px */
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #FFFFFF;
-  opacity: 1;
-
-
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.cute-h2 {
-  margin-left: -24px;
-}
-
-.cute-h2 span {
-  margin-left: -24px;
-}
-
-.cute-row {
-  margin-top: 40px;
-}
-
-#b1 {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.caption {
-  margin-top: 15px;
-  margin-bottom: 40px;
-}
-
-#fi1 {
-  background-image: url('../projects/aquarium/fi1.png');
-}
-
-#fi2 {
-  background-image: url('../projects/aquarium/fi2.png');
-}
-
-#fi3 {
-  background-image: url('../projects/aquarium/fi3.png');
-}
-
-#ci1 {
+.photo-maze {
   margin-top: 50px;
-  margin-bottom: 40px;
 }
 
-#chargeit1 {
-  background-image: url('../projects/ChargeIt/ci1.png');
+.photo-maze .row {
+  margin-bottom: 30px;
 }
 
-#chargeit2 {
-  background-image: url('../projects/ChargeIt/chargeit2.png');
-}
+.b1 {
 
-#wt1 {
-  background-image: url('../projects/WordTutor/wt1.png');
-}
+  box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1), 0px 0px 16px rgba(0, 0, 0, 0.05);
 
-#sw1 {
-  background-image: url('../projects/Swasthyaa/sw1.png');
-}
-
-iframe {
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
-
-.video-row {
-  margin-top: 100px;
-}
-
-.video-row .containing-div {
-  display: table;
-  height: 500px;
-}
-
-.video-row .containing-div p {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#sr1 {
-  background-image: url('../projects/aquarium/sr1.png');
-}
-
-#sr2 {
-  background-image: url('../projects/aquarium/sr2.png');
-}
-
-.containing-div span {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #A71112;
-}
-
-.top-nav-bar {
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-.navigation-bar {
-  width: 100%;
-}
-
-.shadow-image {
-
-  box-shadow: 0px 0px 24px rgba(65, 65, 65, 0.08), 0px 8px 24px rgba(65, 65, 65, 0.16);
-
-  margin-top: 50px;
-
-}
-
-.green-bg {
-  background-color: #229C6F;
-  padding-top: 80px;
-  padding-bottom: 120px;
-}
-
-.green-bg p {
-
-
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5em;
-  /* or 18px */
-
-  color: #fff;
-}
-
-.green-bg h2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #fff;
-
-  margin-bottom: 20px;
-}
-
-.progress-container {
-  width: 100%;
-  height: 5px;
-  background: #FAE6E6;
-}
-
-.progress-bar {
-  height: 5px;
-  background: #C90708;
-  width: 0%;
-}
-
-#vs1 {
-  background-image: url('../projects/VizSports//vs1.png');
-}
-
-body {
-  animation: appear;
-  animation-duration: 0.33s;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navigation-item {
-    margin-bottom: 10px;
-  }
-
-  .parallax h1 {
-    font-size: 24px;
-    line-height: 150%;
-  }
-
-  .snapshot p {
-    line-height: 200%;
-  }
-
-  .blue-bg p {
-    line-height: 200%;
-  }
-
-  .blue-bg h1 {
-    font-size: 24px;
-  }
-
-  .white-bg h1 {
-    font-size: 24px;
-  }
-
-  .white-bg p {
-    line-height: 200%;
-    margin-bottom: 32px;
-  }
-
-  .card {
-    margin-bottom: 16px;
-    height: auto;
-  }
-
-  .card-row {
-    margin-top: 0px;
-  }
-
-  .cute-h2 circle {
-    display: none;
-  }
-
-  .video-row .containing-div {
-    height: auto;
-  }
-
-  .video-row .containing-div p {
-    display: block;
-  }
-
-  #video-heading-2 {
-    margin-top: 50px;
-  }
+  border-radius: 10px;
 }

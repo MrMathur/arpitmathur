@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+}
+
+.cute-glyph {
+  display: inline-block;
+  width: 28px;
+  height: 5px;
+
+  background: #FFFFFF;
+  border: 1px solid #C90708;
+  box-sizing: border-box;
+
+
+  box-shadow: 2px 2px 0px #C90708;
+
+  transform: translateY(-5px);
+
+}
+
+h1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
+
+  display: inline;
+
+  color: #808080;
+}
+
+.section-title {
+  margin-left: 12px;
+}
+
+p {
+
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.75em;
+
+  color: #454545;
+
+  margin-bottom: 0.75em;
+}
+
+p b {
+  font-weight: normal;
+  color: #C90708;
+}
+
+p a {
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+
+  color: #C90708;
+
+  opacity: 0.5;
+
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: #C90708;
+  opacity: 1;
+}
+
+.buttons a {
+
+  display: inline-block;
+
+  background: #FFFFFF;
+  border: 1px solid #B22727;
+  box-sizing: border-box;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-right: 20px;
+
+  font-family: 'Fira Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #C90708;
+  box-shadow: 4px 4px 0px #C90708;
+
+}
+
+.buttons a:hover {
+  background: #EEF3F5;
+  text-decoration: none;
+}
+
+.buttons a:focus {
+
+  outline-style: none;
+  box-shadow: 1px 1px 0px #C90708;
+
+  transform: translate(3px, 3px);
+
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+
+  p {
+    line-height: 2em;
+  }
+
+  .cute-glyph {
+    margin-left: 12px;
+
+    width: 18px;
+    height: 6px;
+  }
+}

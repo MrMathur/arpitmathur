@@ -1,0 +1,103 @@
+#work {
+  padding-top: 150px;
+}
+
+#work .buttons {
+  margin-top: 25px;
+}
+
+#work #filter {
+  float: right;
+}
+
+#work #filter .filter-item {
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: right;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  opacity: 0.5;
+
+  margin-left: 30px;
+
+}
+
+#work #filter .active-item {
+  font-weight: 500;
+  opacity: 1;
+}
+
+#work #filter .filter-item:hover {
+  font-weight: 500;
+  opacity: 1;
+  text-decoration: none;
+}
+
+#work .left-project,
+#work .right-project {
+  margin-top: 50px;
+}
+
+#work .left-project img,
+#work .right-project img {
+  width: 100%;
+}
+
+#work h2 {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.56em;
+  line-height: 1.2em;
+
+  color: #454545;
+
+  opacity: 0.85;
+}
+
+#work .tags {
+
+  font-family: Fira Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+
+  opacity: 0.5;
+
+  margin-bottom: 35px;
+}
+
+#work .tags span {
+  margin-right: 16px;
+}
+
+#work .mob-img {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #work {
+    padding-top: 70px;
+  }
+
+  #work .desk-img {
+    display: none;
+  }
+
+  #work .mob-img {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #work .tags {
+    display: none;
+  }
+}

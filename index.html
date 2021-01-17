@@ -2,168 +2,422 @@
 <html lang="en">
 
 <head>
-  <link rel="shortcut icon" href="./images/favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Arpit Mathur's Design Portfolio</title>
+  <title>Arpit Mathur's Portfolio</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link href="./style/style.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&display=swap" rel="stylesheet">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon.ico"/>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-  <script src="js/main.js"></script>
-  <script src="./js/blink.js"></script>
-  <script src="./js/typed.js"></script>
-  <script src="./js/carousel.js"></script>
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158031087-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <!-- LOADING -->
+  <script src="./js/load.js"></script>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-158031087-1');
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
+
+  <!-- TYPED JS-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!-- SLICK -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/about-slide.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/preload.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/work.css">
+  <link rel="stylesheet" href="./style/play.css">
+  <link rel="stylesheet" href="./style/about.css">
+  <link rel="stylesheet" href="./style/footer.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+  <!-- SCROLL -->
+  <script src="./js/scroll.js"></script>
 </head>
 
 <body>
-  <div class="container navigation-bar" animate>
-    <div class="row">
-      <a class="col-lg-3 col-sm-12 col-12" id="logo" href="./index.html">
-        ARPIT<span id="mathur">MATHUR</span>
-      </a>
-      <div class="col-lg-6"></div>
-      <a class="col-sm-4 col-4 col-lg-1 navigation-item" id="active-navigation-item" href="./index.html">_work</a>
-      <a class="col-sm-4 col-4 col-lg-1 navigation-item" href="./about.html">about</a>
-      <a class="col-sm-4 col-4 col-lg-1 navigation-item" href="./Resume.pdf" target="_blank">resume</a>
+  <!-- <div class="preload hide-preload">
+     <span>
+      <div>
+
+      </div>
+    </span>
+    <h1>LOADING</h1>
+  </div> -->
+  <div id="nav-element">
+    <div id="nav-container">
+      <div class="container">
+        <div id="navbar">
+          <a id="logo" href="#header">ARPIT<span id="mathur">MATHUR</span></a>
+          <span id="nav-items">
+            <a class="nav-item" id="nav-work" href="#work">01 work</a>
+            <a class="nav-item" id="nav-play" href="#play">02 play</a>
+            <a class="nav-item" id="nav-about" href="#about">03 about</a>
+            <a class="nav-item" href="./RESUME.pdf" target="_blank">04 resume</a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="container hero-section" animate>
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>I'm a</h2>
-        <h1>
-          <blink>_</blink><span id="profile-term">UX Designer</span>
-        </h1>
-        <p>Currently a graduate student pursuing a Masters of Science in <b>Human-Computer Interaction</b> at the
-          <b>Georgia
-            Institute of Technology</b>. Previously, B.Des at IIT Guwahati.</p>
-        <p>Looking for UX Design full time opportunities starting May 2021.</p>
-      </div>
-      <div class="col-lg-6">
-        <div id="header-carousel" class="carousel slide" data-pause="false">
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active" id="1">
-              <img src="./images/carousel-images/1.png" style="width:100%;">
+  <div class="container">
+    <div id="header">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>I'M A</h1>
+          <h2 class="parent-type-element">
+            <span class="type-element"></span>
+          </h2>
+          <h2>
+            <span class="mob-element">UX Designer</span>
+          </h2>
+          <p>Currently a graduate student pursuing a Masters of Science in <b>Human-Computer Interaction</b> at the
+            <b>Georgia Institute of Technology</b>. Previously, B.Des at IIT Guwahati.</p>
+          <p>Looking for UX Design full time opportunities starting May 2021.</p>
+          <div class="buttons">
+            <a href="mailto:arpit.mathur@gatech.edu" target="_blank">contact</a>
+            <a href="./RESUME.pdf" target="_blank">resume</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          <div id="tv">
+            <div>
+              <div id="image-frame">
+                <img src="./images/carousel_images/8.png" />
+                <img src="./images/carousel_images/1.png" />
+                <img src="./images/carousel_images/3.png" />
+                <img src="./images/carousel_images/2.png" />
+                <img src="./images/carousel_images/5.png" />
+                <img src="./images/carousel_images/4.png" />
+                <img src="./images/carousel_images/6.png" />
+                <img src="./images/carousel_images/7.png" />
+              </div>
             </div>
-
-            <div class="item" id="2">
-              <img src="./images/carousel-images/2.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="3">
-              <img src="./images/carousel-images/3.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="4">
-              <img src="./images/carousel-images/4.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="5">
-              <img src="./images/carousel-images/5.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="6">
-              <img src="./images/carousel-images/6.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="7">
-              <img src="./images/carousel-images/7.png" style="width:100%;">
-            </div>
-
-            <div class="item" id="8">
-              <img src="./images/carousel-images/8.png" style="width:100%;">
+            <br />
+            <div>
+              <div id="control1"></div>
+              <div id="control2"></div>
+              <div id="control2"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container projects" animate>
-    <!-- <div class="row filter">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-2 filter-item" id="active-filter-item">_all</div>
-      <div class="col-lg-2 filter-item">design</div>
-      <div class="col-lg-2 filter-item">research</div>
-      <div class="col-lg-2 filter-item">code</div>
-      <div class="col-lg-2"></div>
-    </div> -->
-    <div class="row project-row">
-      <div class="col-lg-6">
-        <a href="./projects/aquarium/aquarium.html"><img src="images/Thumbnails/Aquarium.png"
-            class="project-thumbnail" /></a>
+    <div id="work">
+      <div class="row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">ALL WORK</h1>
+        <!-- <div id="filter">
+          <a class="filter-item active-item">01 featured</a>
+          <a class="filter-item">02 design</a>
+          <a class="filter-item">03 research</a>
+          <a class="filter-item">04 coding</a>
+        </div> -->
       </div>
-      <!-- <div class="col-lg-4">
-        <a href="./projects/VizSports/vizsports.html"><img src="images/Thumbnails/VizSports.png"
-            class="project-thumbnail" /></a>
+      <div class="row left-project">
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/Aquarium.png" />
+        </div>
+        <div class="col-lg-6">
+          <h2>Georgia Aquarium <br />
+            Predator Exhibit</h2>
+          <div class="tags">
+            <span>UX Research</span>
+            <span>UX Design</span>
+            <span>2019</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/Aquarium.png" />
+          <p><b>Challenge</b>: Alter the visitors’ perceptions of sharks from ‘fear’ to ‘fascination’ through Georgia
+            Aquarium’s Predator Project. </p>
+          <p><b>Solution</b>: Designed an interactive screen exhibit with a mobile-based interface, educating visitors
+            about
+            the role of sharks in the food chain and demystifiyng myths that make them scary.</p>
+          <div class="buttons">
+            <a href="./aquarium.html">read more</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+      </div>
+      <!-- <div class="row right-project">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <h2>Digital Threats <br />
+            to Democracy</h2>
+          <div class="tags">
+            <span>UX Design</span>
+            <span>Data Visualization</span>
+            <span>2020</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/DT2D.png" />
+          <p><b>Challenge</b>: Political Hate Speech and Misinformation on Facebook has been
+            a violent issue in Myanmar. </p>
+          <p><b>Solution</b>: Designed and developed AGGIE, a tool for tracking and
+            classification of problematic posts related to the Myanmar
+            General Elections 2020, using Tableau.</p>
+          <p><b>Impact</b>: The tool is currently in use by 16 trackers in Myanmar and has
+            helped in the identification of over 20,000 problematic posts.</p>
+          <div class="buttons">
+            <a href="#">read more</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/DT2D.png" />
+        </div>
       </div> -->
-      <div class="col-lg-6">
-        <a href="./projects/ChargeIt/chargeit.html"><img src="images/Thumbnails/ChargeIt.png"
-            class="project-thumbnail" /></a>
+
+      <div class="row right-project">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <h2>ChargeIt: Battery <br />
+            Management for e-Vehicles</h2>
+          <div class="tags">
+            <span>Mobile UX Design</span>
+            <span>Visual Design</span>
+            <span>2017</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/evehicle.png" />
+          <p><b>Challenge</b>:
+            Battery management and maintenance of e-vehicles is a big deterrent to their adoption in India, with owners
+            having to plan their trips around power stations and battery
+            consumption.
+          </p>
+          <p><b>Solution</b>:
+            A mobile app, that ensures there
+            is sufficient charge to complete intended trips, and issues warnings on low battery levels. It also acts as
+            a facilitator between service stations and end-users.
+          </p>
+          <div class="buttons">
+            <a href="./evehicle.html">read more</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/evehicle.png" />
+        </div>
+      </div>
+      <div class="row left-project">
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/quant.png" />
+        </div>
+        <div class="col-lg-6">
+          <h2>Visualizing <br />
+            Quantum Physics</h2>
+          <div class="tags">
+            <span>UX Design</span>
+            <span>Front-end Development</span>
+            <span>2020</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/quant.png" />
+          <p><b>Challenge</b>: Students struggle to understand and visualize quantum principles due to their highly
+            abstract nature. </p>
+          <p><b>Solution</b>: Designed and Developed Interactive web based visualizations
+            as course material for EC 3040 Semiconductor Devices.</p>
+          <p><b>Impact</b>: 4 interactive chapters were used by 100 students enrolled in EC
+            3040 over the fall semester 2020, to facilitate remote learning.</p>
+          <div class="buttons">
+            <a href="./quantvis.html">read more</a>
+            <a target="_blank" href="https://github.gatech.edu/pages/amathur75/sc_viz/index.html">visit website</a>
+          </div>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+      </div>
+      <div class="row right-project">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6">
+          <h2>Swasthyaa: A <br />
+            TB Intervention</h2>
+          <div class="tags">
+            <span>Interactive Voice Response</span>
+            <span>User Testing</span>
+            <span>2018</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/DT2D.png" />
+          <p><b>Challenge</b>:
+            Non-adherence to Tuberculosis treatment in India is a major issue, as it causes the disease to become
+            drug-resistant, often resulting in death.
+          </p>
+          <p><b>Solution</b>:
+            Swasthyaa is a web and mobile-based service for health workers to monitor the progress of TB patients in
+            real-time, and spread awareness.
+          </p>
+          <p><b>Impact</b>: The Government of Assam deployed the project in 3 rural districts, and has enrolled over
+            2000 at risk patients, and 300 positive patients. </p>
+          <div class="buttons">
+            <a target="_blank" href="https://www.embeddedinteractions.com/swasthyaa/">visit website</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/Swasthyaa.png" />
+        </div>
+      </div>
+      <div class="row left-project">
+        <div class="col-lg-5">
+          <img class="desk-img" src="./images/project-thumnails/DT2D.png" />
+        </div>
+        <div class="col-lg-6">
+          <h2>Digital Threats <br />
+            to Democracy</h2>
+          <div class="tags">
+            <span>UX Design</span>
+            <span>Data Visualization</span>
+            <span>2020</span>
+          </div>
+          <img class="mob-img" src="./images/project-thumnails/DT2D.png" />
+          <p><b>Challenge</b>: Political Hate Speech and Misinformation on Facebook has been
+            a violent issue in Myanmar. </p>
+          <p><b>Solution</b>: Designed and developed AGGIE, a tool for tracking and
+            classification of problematic posts related to the Myanmar
+            General Elections 2020, using Tableau.</p>
+          <p><b>Impact</b>: The tool is currently in use by 16 trackers in Myanmar and has
+            helped in the identification of over 20,000 problematic posts.</p>
+          <div class="buttons">
+            <a target="_blank" href="https://www.getaggie.org/">visit website</a>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
-    <div class="row project-row">
-      <div class="col-lg-6">
-        <a href="./projects/Swasthyaa/swasthyaa.html"><img src="images/Thumbnails/Swasthyaa.png"
-            class="project-thumbnail" /></a>
+    <div id="play">
+      <div class="row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">SOME PLAY</h1>
       </div>
-      <div class="col-lg-6">
-        <a href="./projects/WordTutor/wordtutor.html"><img src="images/Thumbnails/WordTutor.png"
-            class="project-thumbnail" /></a>
+      <div class="row play-projects">
+        <div class="col-lg-3">
+          <img src="./images/play-thumbnails/HelpTag.png" />
+          <br />
+          <h2>Chrome Extension</h2>
+          <p>Developed a chrome extension that helps you identify ways to contribute towards different movements
+            that you come across your Twitter feed. Stood amongst the top 8 projects at <a target="_blank"
+              href="https://2020.hack.gt/">HackGT</a>. You can learn more
+            about the
+            project <a href="https://devpost.com/software/helptag-oi5cek" target="_blank">here</a>.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <img src="./images/play-thumbnails/WordTutor.png" />
+          <br />
+          <h2>Voice UI Design</h2>
+          <p>Developed an Alexa skill for non-native English speakers to improve their vocabulary with an emphasis on
+            pronounciation and usage. <a target="_blank"
+              href="https://www.youtube.com/watch?v=K4H9mO3K7iA&feature=emb_logo&ab_channel=GuruduttPerichetla">Watch
+              me</a> use this skill to prepare for the GRE. Won the Student Design Consortium
+            at <a target="_blank" href="https://indiahci.org/2018/">IndiaHCI 2018</a>.</p>
+        </div>
+        <div class="col-lg-3">
+          <img src="./images/play-thumbnails/trapgladiator.png" />
+          <br />
+          <h2>Game Design</h2>
+          <p>Developed a Third Person RPG using Unity3D. The player, while caged in a booby-trapped arena, has to battle
+            off medieval aliens using crowd control abilities, that change with time. Here is
+            some <a target="_blank" href="https://youtu.be/ZeybckQHawk">Gameplay Video</a> of the rougelike zombie mode
+            game.</p>
+        </div>
+        <div class="col-lg-3">
+          <img src="./images/play-thumbnails/abled.png" />
+          <br />
+          <h2>Scrollytelling</h2>
+          <p>Explored the <a target="_blank"
+              href="https://data.census.gov/cedsci/all?q=disability&g=0100000US.04000.001">US Census Data</a> to find
+            out about different facets of the lives of people with
+            disabilities. To communicate this story, we created a scrollytelling visualization. You can watch a <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=Cy2zfgTj1Jw&feature=emb_logo&ab_channel=TanujaSawant">video</a>,
+            or interact with the <a target="_blank" href="http://swargujrania.com/usdisabilityawareness/">website</a>.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container footer" animate>
-    <div class="row">
-      <div class="col-lg-4">
+    <div id="about">
+      <div class="row">
+        <div class="cute-glyph"></div>
+        <h1 class="section-title">ABOUT ME</h1>
       </div>
-      <div class="col-lg-4">
-        <span class="soc-icons">
-          <a href="https://www.linkedin.com/in/arpitmathurinfo/" target="_blank"><img
-              src="./images/Social/LinkedIn.svg" />
-          </a>
-          <a href="mailto:arpit.mathur@gatech.edu" target="_blank">
-            <img src="./images/Social/Mail.svg" />
-          </a>
-          <a href="https://medium.com/@arpitmathur19" target="_blank">
-            <img src="./images/Social/Medium.svg" />
-          </a>
-          <a href="https://dribbble.com/arpitmathur19" target="_blank">
-            <img src="./images/Social/Dribbble.svg" />
-          </a>
-        </span>
-      </div>
-      <div class="col-lg-4">
+      <div class="row">
+        <div class="col-lg-6" id="about-desc">
+          <p>I have a keen interest in the creation of digital products, often wearing many hats. I've had to interview
+            health workers in rural India, while delivering pixel-perfect designs of
+            data-driven dashboards. I've even found myself burning the midnight oil to squish bugs in
+            javascript. I've loved every bit of it.</p>
+
+          <p>I try and involve users in multiple iterations, because it helps me design usable, enjoyable and ethical
+            products. I am also keen on working with data and visualizing it to draw inferences. I like to
+            talk, and you can listen to me share my views on <a target="_blank"
+              href="https://anchor.fm/gt-hc-hive/episodes/The-HC-Hive-Ep--12---The-Devil-Wears-Data-Data-Viz-emn0kf">Infoviz</a>,
+            and my <a target="_blank"
+              href="https://www.youtube.com/watch?v=AtteyVR_37A&ab_channel=Anchorenza%26RadioG%2CIITG">Degree in
+              Design</a>.</p>
+
+          <p> Outside of work, I'm a <a target="_blank"
+              href="https://www.google.com/search?q=arsenal&oq=arsenal+&aqs=chrome.0.69i59l2j35i39j0i67i131i395i433i457j69i60j69i61j69i60l2.2317j1j1&sourceid=chrome&ie=UTF-8">Gooner
+              till I die</a>, a crappy musician and a <a target="_blank"
+              href="https://www.google.com/search?q=league+of+legends&oq=league+of+legends&aqs=chrome..69i57j46i39j46i395i433j0i395l4j69i60.1959j1j9&sourceid=chrome&ie=UTF-8">LoL
+              AD Carry</a>.</p>
+          <!-- <p>Reach out to me at: <a id="email" target="_blank"
+              href="mailto:arpit.mathur@gatech.edu">arpit.mathur@gatech.edu</a></p> -->
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5">
+          <div id="frame">
+            <div id="slick-frame">
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/0.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/1.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/2.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/3.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/4.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/5.jpg" />
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/6.jpg" />
+              <!-- <img src="./images/about-image/drive-download-20210110T113314Z-001/7.jpg" /> -->
+              <img src="./images/about-image/drive-download-20210110T113314Z-001/8.jpg" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12 footer-text">
-        2020 @ Arpit Mathur in Atlanta, Georgia
-      </div>
+    <div id="footer">
+      <span id="icons">
+        <a href="https://www.linkedin.com/in/arpitmathurinfo/" target="_blank"><img
+            src="./images/Social/LinkedIn.svg" />
+        </a>
+        <a href="mailto:arpit.mathur@gatech.edu" target="_blank">
+          <img src="./images/Social/Mail.svg" />
+        </a>
+        <a href="https://medium.com/@arpitmathur19" target="_blank">
+          <img src="./images/Social/Medium.svg" />
+        </a>
+        <a href="https://dribbble.com/arpitmathur19" target="_blank">
+          <img src="./images/Social/Dribbble.svg" />
+        </a>
+      </span>
+      <div id="footnote">
+        Design and Code by Yours Truly </div>
     </div>
   </div>
 </body>

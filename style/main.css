@@ -66,13 +66,13 @@ p a {
 
   color: #C90708;
 
-  opacity: 0.5;
+  opacity: 0.8;
 
   text-decoration: underline;
 }
 
 p a:hover {
-  color: #C90708;
+  color: #b80202;
   opacity: 1;
 }
 

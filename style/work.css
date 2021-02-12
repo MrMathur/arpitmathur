@@ -38,9 +38,13 @@
   text-decoration: none;
 }
 
+#work .filter-section {
+  margin-bottom: 50px;
+}
+
 #work .left-project,
 #work .right-project {
-  margin-top: 50px;
+  margin-bottom: 85px;
 }
 
 #work .left-project img,
